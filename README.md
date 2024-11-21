@@ -18,3 +18,5 @@ I’m a passionate creative coder and software developer with high interest in s
 * future of programming<br />
 * programming ethics<br />
 * agile manifesto
+
+Everything that we're doing really should flow from user value. (John Carmack)
