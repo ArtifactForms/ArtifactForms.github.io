@@ -1,5 +1,10 @@
 I’m a passionate creative coder and software developer with high interest in software architecture. I'm always on the lookout for something to discover.
 
+**Personal programming principles**
+* Reinvent the wheel to develop skills.
+* Don't be afraid to fail, but fail fast and iterate.
+* Try to get out of the comfort zone as often as possible.
+
 **Fields of interest**
 * computational geometry
 * creative coding
