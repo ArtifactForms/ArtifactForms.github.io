@@ -8,7 +8,7 @@ A simple chat bot.
 
 If you are interested in learning more about chatbots and following the progress of my project, including my learning journey, please feel free to consult my project documentation. It will be updated regularly throughout the project.
 
-[ChatBot Project Documentation](https://artifactforms.github.io/ChatBot/)
+[ChatBot Project Documentation](https://artifactforms.github.io/ChatBot/documentation/project.html)
 
 ### Artifact Forms
 
