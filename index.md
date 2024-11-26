@@ -2,6 +2,14 @@ I’m a passionate creative coder and software developer with high interest in s
 
 ## Projects
 
+### Chatbot Project
+
+A simple chat bot.
+
+If you are interested in learning more about chatbots and following the progress of my project, including my learning journey, please feel free to consult my project documentation. It will be updated regularly throughout the project.
+
+[ChatBot Project Documentation](https://artifactforms.github.io/ChatBot/)
+
 ### Artifact Forms
 
 A Personal 3D Project - Explore the world of 3D geometry with this open-source Java library, built as a learning project.
@@ -12,7 +20,7 @@ This Java library began as a hobby project in 2015/2016. I started it to deepen 
 
 Processing captivated me from the start. Designed for visual learners, Processing is a great tool to get started with programming. You can learn more at processing.org. While Processing isn't strictly necessary, the library's core functionality is independent of the Processing environment. However, Processing offers a convenient way to visualize constructed meshes through its rendering pipeline, which leverages JAVA, JAVA2D, and OPENGL.
 
-https://github.com/ArtifactForms/MeshLibCore
+[MeshLib on Github](https://github.com/ArtifactForms/MeshLibCore)
 
 ### Nbt Library
 
@@ -26,7 +34,7 @@ Previously, the team had tried to automate this process using the online Voxeliz
 
 To solve this problem, I developed a tool that transfers OBJ models directly into Minecraft worlds. To do this, it was necessary to convert the data into the NBT format, which Minecraft uses to store world data. The development of this tool led to the creation of the NBT library.
 
-https://github.com/ArtifactForms/nbt
+[NBT on Github](https://github.com/ArtifactForms/nbt)
 
 ## Languages & Tools
 <p align="left">
