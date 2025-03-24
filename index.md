@@ -79,7 +79,7 @@ Hier ein Auszug aus den von mir erstellten Waffen-Sprites – darunter auch eine
 ](https://www.youtube.com/watch?v=0uQLSrucCc0)
 
 ![grafik](https://github.com/user-attachments/assets/36e5d8a9-c73b-4327-80fb-c362358e1d3b)
-Room Concept Art (Paint.NET)
+Dungeon Concept Art (Paint.NET)
 
 ## Retro Game Jam – Eine Hommage an die Gameboy-Ära
 
