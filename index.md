@@ -19,6 +19,10 @@ Das folgende Beispiel zeigt einen möglichen Ablauf der Formgenerierung anhand e
 6. **Holes Modifier** für Durchbrüche in der Geometrie  
 7. **Solidify** zur Verdickung der Struktur  
 
+![grafik](https://github.com/user-attachments/assets/429dcf6c-209f-4d5b-abb9-053cf9475600)
+
+![grafik](https://github.com/user-attachments/assets/98942d7f-9837-4d84-9830-409ba21059d1)
+
 ### Code-Beispiel zur Transformation  
 
 ```java
