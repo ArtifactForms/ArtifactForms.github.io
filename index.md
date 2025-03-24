@@ -1,3 +1,39 @@
+# Simon Dietz
+Interdisziplinärer Entwickler & Kreativtechniker
+
+# Mesh Modifikatoren  
+
+Im Laufe der Jahre habe ich eine Vielzahl an Mesh-Modifikatoren implementiert. Diese ermöglichen es, Grundformen durch gezielte Transformationen zu verändern und zu komplexen, oft unerwarteten Strukturen weiterzuentwickeln.  
+
+Durch die Kombination verschiedener Modifikatoren entsteht eine nahezu unendliche Vielfalt an Formen. Die spielerische Aneinanderreihung und Variation der einzelnen Operationen erlaubt es, neue Formwelten zu erkunden, ohne dabei händisch modellieren zu müssen. Dieser experimentelle Ansatz macht es möglich, kreative und algorithmisch generierte Geometrien zu erschaffen.  
+
+## Modifikator-Sequenz  
+
+Das folgende Beispiel zeigt einen möglichen Ablauf der Formgenerierung anhand einer Sequenz von Modifikatoren:  
+
+1. **Icosahedron** als Ausgangsform  
+2. **Bevel Vertices** (Abrunden der Ecken)  
+3. **Tessellierung der Flächen** durch Planar Vertex Center  
+4. **Weitere Tessellierung** mittels MidEdge Center  
+5. **Spherify** zur Annäherung an eine Kugelform  
+6. **Holes Modifier** für Durchbrüche in der Geometrie  
+7. **Solidify** zur Verdickung der Struktur  
+
+## Code-Beispiel zur Transformation  
+
+```java
+public void createMesh() {
+    mesh = new IcosahedronCreator().create();
+    new BevelVerticesModifier(0.2f).modify(mesh);
+    new PlanarVertexCenterModifier().modify(mesh);
+    new PlanarMidEdgeCenterModifier().modify(mesh);
+    new SpherifyModifier().modify(mesh);
+    new HolesModifier(0.8f).modify(mesh);
+    new SolidifyModifier(0.02f).modify(mesh);
+    new ScaleModifier(350).modify(mesh);
+}
+```
+
 ![image](images/image391.png)
 
 I’m a passionate creative coder and software developer with high interest in software architecture. I'm always on the lookout for something to discover.
