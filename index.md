@@ -44,6 +44,20 @@ Eine Übersicht über die verfügbaren Modifikatoren sowie weitere Einblicke in 
 
 [Mesh Modifiers Documentation](https://github.com/ArtifactForms/MeshLibCore/blob/master/documentation/modifiers.md).
 
+## NBT-Bibliothek
+
+Diese Bibliothek bietet Funktionen zum Lesen, Schreiben und Validieren von Named Binary Tag (NBT)-Dateien, die in Minecraft zur Datenspeicherung verwendet werden. Sie unterstützt das Lesen und Schreiben von komprimierten (Gzip) NBT-Dateien sowie das Erstellen von Schematic-Dateien (*.schematic).
+
+**Hintergrund & Intention**
+
+Die NBT-Bibliothek entstand als Nebenprojekt im Rahmen eines größeren Minecraft-Projekts. Im Jahr 2021 wurde ich von einem Bauteam gebeten, ein Tool zu entwickeln, das große 3D-Modelle (im OBJ-Format) aus Blender direkt in Minecraft-Welten importieren kann.
+
+Zuvor hatte das Team versucht, diesen Prozess mit dem Online-Voxelizer von Drububu zu automatisieren. Obwohl dieses Tool die Möglichkeit bietet, Voxel-Daten als Minecraft-Schematics zu exportieren, stößt es bei großen Modellen an Grenzen. Einschränkungen hinsichtlich maximaler Größe und Blockanzahl erforderten es, große Modelle in kleinere Teile aufzuteilen und sie einzeln in Minecraft zu integrieren – ein zeitaufwändiger Prozess.
+
+Um dieses Problem zu lösen, entwickelte ich ein Tool, das OBJ-Modelle direkt in Minecraft-Welten überträgt. Dazu war es notwendig, die Daten in das NBT-Format zu konvertieren, das Minecraft zur Speicherung von Weltdaten verwendet. Die Entwicklung dieses Tools führte schließlich zur Entstehung der NBT-Bibliothek.
+
+[NBT on Github](https://github.com/ArtifactForms/nbt)
+
 ![image](images/image391.png)
 
 ### Chatbot Project
