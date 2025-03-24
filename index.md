@@ -73,6 +73,8 @@ Hier ein Auszug aus den von mir erstellten Waffen-Sprites – darunter auch eine
 
 ![grafik](https://github.com/user-attachments/assets/164316fb-c0ba-4165-8e4b-52edbc3c580a)
 
+![grafik](https://github.com/user-attachments/assets/8e3a19de-df34-4537-bd29-f221fe6f5e4d)
+
 [![grafik](https://github.com/user-attachments/assets/64151fa9-c80d-4068-a0f5-be35a411316b)
 ](https://www.youtube.com/watch?v=0uQLSrucCc0)
 
