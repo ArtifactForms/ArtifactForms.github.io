@@ -50,7 +50,7 @@ Anfang der 90er Jahre – es muss etwa 1992 gewesen sein – wurde ich durch ein
 
 Viele Jahre später, vermutlich Anfang der 2010er Jahre (2014), begann ich damit, eigene Kartenillustrationen anzufertigen – in einer Zeit, in der künstliche Intelligenz noch keine Rolle in der kreativen Gestaltung spielte. Jedes Motiv entstand in Handarbeit, inspiriert von den ikonischen Werken, die mich einst in meiner Kindheit in ihren Bann zogen.
 
-![grafik](https://github.com/user-attachments/assets/fae4ceb1-3966-4602-bc5d-2897c76b17f6)
+![grafik](https://github.com/user-attachments/assets/26e36643-2d54-4caa-8299-8c935e6bebf9)
 
 ## NBT-Bibliothek
 
