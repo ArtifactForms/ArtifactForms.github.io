@@ -58,9 +58,7 @@ Im Rahmen eines persönlichen Game Jams entstand eine einfache, aber stilvolle U
 
 Das Projekt war bewusst minimalistisch gehalten und konzentrierte sich auf die Erstellung eines klassischen Spritesheets sowie die korrekte Skalierung mithilfe des Nearest-Neighbor-Algorithmus. Ziel war es, die Retro-Ästhetik so originalgetreu wie möglich einzufangen und eine kleine, aber liebevolle Hommage an die Spiele meiner Kindheit zu schaffen.
 
-[![Snake on YouTube]
-(https://img.youtube.com/vi/CspzAxke_QY/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=CspzAxke_QY)
+![[grafik](https://github.com/user-attachments/assets/64fe7b4a-6bad-44c4-a695-eb93903797ae)](https://www.youtube.com/watch?v=CspzAxke_QY)
 
 ## NBT-Bibliothek
 
