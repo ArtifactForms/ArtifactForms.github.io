@@ -61,11 +61,11 @@ Im Laufe der Entwicklung konnte ich viele spannende Konzepte und Techniken verti
 * Entity-Component-System (ECS) – Strukturierte Architektur für flexible und modulare Spiellogik
 * Pixel-Sprite-Animationen – Flüssige Bewegungsabläufe für Charaktere und Objekte
 * Tilemap-System – Erstellen und Laden von prozeduralen oder handgebauten Leveln
-* Kamera-Follow-System – Dynamische Kamera, die sich flüssig an den Spieler anpasst
+* Camera-Follow-System – Dynamische Kamera, die sich flüssig an den Spieler anpasst
 * Twin-Stick-Mechanik – Steuerung mit Tastatur und Maus für präzises Zielen
 * Item-Pickups – Sammelbare Gegenstände
 * Minimap – Übersichtskarte für eine bessere Orientierung im Dungeon
-* Raycasting – Berechnung von Sichtlinien
+* Raycasting – Berechnung von Sichtlinien zur Kollisionserkennung
 
 Auch wenn das Projekt über einen Prototypen-Status nie hinausgekommen ist, war es eine unglaublich lehrreiche Erfahrung. Es hat mir geholfen, verschiedene Aspekte der Spieleentwicklung besser zu verstehen – und vor allem hat es jede Menge Spaß gemacht! 😊
 
