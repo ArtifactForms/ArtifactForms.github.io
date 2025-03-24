@@ -1,13 +1,13 @@
 # Simon Dietz
 Interdisziplinärer Entwickler & Kreativtechniker
 
-# Mesh Modifikatoren  
+## Mesh Modifikatoren  
 
 Im Laufe der Jahre habe ich eine Vielzahl an Mesh-Modifikatoren implementiert. Diese ermöglichen es, Grundformen durch gezielte Transformationen zu verändern und zu komplexen, oft unerwarteten Strukturen weiterzuentwickeln.  
 
 Durch die Kombination verschiedener Modifikatoren entsteht eine nahezu unendliche Vielfalt an Formen. Die spielerische Aneinanderreihung und Variation der einzelnen Operationen erlaubt es, neue Formwelten zu erkunden, ohne dabei händisch modellieren zu müssen. Dieser experimentelle Ansatz macht es möglich, kreative und algorithmisch generierte Geometrien zu erschaffen.  
 
-## Modifikator-Sequenz  
+### Modifikator-Sequenz  
 
 Das folgende Beispiel zeigt einen möglichen Ablauf der Formgenerierung anhand einer Sequenz von Modifikatoren:  
 
@@ -19,7 +19,7 @@ Das folgende Beispiel zeigt einen möglichen Ablauf der Formgenerierung anhand e
 6. **Holes Modifier** für Durchbrüche in der Geometrie  
 7. **Solidify** zur Verdickung der Struktur  
 
-## Code-Beispiel zur Transformation  
+### Code-Beispiel zur Transformation  
 
 ```java
 public void createMesh() {
