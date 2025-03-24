@@ -1,6 +1,8 @@
 # Simon Dietz
 Interdisziplinärer Entwickler & Kreativtechniker
 
+# Portfolio / Projekte
+
 ## Mesh Modifikatoren  
 
 Im Laufe der Jahre habe ich eine Vielzahl an Mesh-Modifikatoren implementiert. Diese ermöglichen es, Grundformen durch gezielte Transformationen zu verändern und zu komplexen, oft unerwarteten Strukturen weiterzuentwickeln.  
@@ -39,10 +41,6 @@ public void createMesh() {
 ```
 
 ![image](images/image391.png)
-
-I’m a passionate creative coder and software developer with high interest in software architecture. I'm always on the lookout for something to discover.
-
-## Projects
 
 ### Chatbot Project
 
