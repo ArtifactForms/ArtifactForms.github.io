@@ -50,6 +50,16 @@ Viele Jahre später, vermutlich Anfang der 2010er Jahre (2014), begann ich damit
 
 ![grafik](https://github.com/user-attachments/assets/26e36643-2d54-4caa-8299-8c935e6bebf9)
 
+## Retro Game Jam – Eine Hommage an die Gameboy-Ära
+
+Als Kind der 80er und 90er, aufgewachsen mit dem Game Boy, schlummert in mir eine tiefe Leidenschaft für die Ästhetik von 8-Bit- und 16-Bit-Grafiken. Die pixelige, reduzierte Optik dieser Ära hat für mich bis heute einen besonderen Charme.
+
+Im Rahmen eines persönlichen Game Jams entstand eine einfache, aber stilvolle Umsetzung des Spieleklassikers Snake – natürlich in authentischer Game Boy-Optik. Ein besonderes Detail war der ikonische Fade-Effekt, den man beispielsweise aus Quirk kennt – übrigens eines meiner All-Time-Favorites.
+
+Das Projekt war bewusst minimalistisch gehalten und konzentrierte sich auf die Erstellung eines klassischen Spritesheets sowie die korrekte Skalierung mithilfe des Nearest-Neighbor-Algorithmus. Ziel war es, die Retro-Ästhetik so originalgetreu wie möglich einzufangen und eine kleine, aber liebevolle Hommage an die Spiele meiner Kindheit zu schaffen.
+
+![grafik](https://github.com/user-attachments/assets/351bc965-e00d-4957-a1f9-1b36e02a56d0)
+
 ## NBT-Bibliothek
 
 Diese Bibliothek bietet Funktionen zum Lesen, Schreiben und Validieren von Named Binary Tag (NBT)-Dateien, die in Minecraft zur Datenspeicherung verwendet werden. Sie unterstützt das Lesen und Schreiben von komprimierten (Gzip) NBT-Dateien sowie das Erstellen von Schematic-Dateien (*.schematic).
