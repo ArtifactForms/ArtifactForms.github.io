@@ -58,7 +58,8 @@ Im Rahmen eines persönlichen Game Jams entstand eine einfache, aber stilvolle U
 
 Das Projekt war bewusst minimalistisch gehalten und konzentrierte sich auf die Erstellung eines klassischen Spritesheets sowie die korrekte Skalierung mithilfe des Nearest-Neighbor-Algorithmus. Ziel war es, die Retro-Ästhetik so originalgetreu wie möglich einzufangen und eine kleine, aber liebevolle Hommage an die Spiele meiner Kindheit zu schaffen.
 
-![[grafik](https://github.com/user-attachments/assets/64fe7b4a-6bad-44c4-a695-eb93903797ae)](https://www.youtube.com/watch?v=CspzAxke_QY)
+[![grafik](https://github.com/user-attachments/assets/345063b1-1ebd-4e48-9ad7-cde07435ba60)
+](https://www.youtube.com/watch?v=CspzAxke_QY)
 
 ## NBT-Bibliothek
 
