@@ -42,9 +42,9 @@ public void createMesh() {
 
 Eine Übersicht über die verfügbaren Modifikatoren sowie weitere Einblicke in deren Verwendung finden Sie hier:
 
-[Mesh Modifiers Documentation](https://github.com/ArtifactForms/MeshLibCore/blob/master/documentation/modifiers.md)
-
 ## HeroQuest Fan Art – Eine Hommage an klassische Fantasy-Illustrationen
+
+![grafik](https://github.com/user-attachments/assets/209c1718-0e7d-498d-891d-c1ef2fe9380a)
 
 Anfang der 90er Jahre – es muss etwa 1992 gewesen sein – wurde ich durch einen Freund auf das Spiel HeroQuest aufmerksam. Schon damals faszinierte mich die Welt dieses Klassikers, insbesondere die Old-School-Fantasy-Illustrationen der Spielkarten. Die düsteren, detailreichen Zeichnungen weckten meine Begeisterung für visuelles Storytelling und die Ästhetik klassischer Fantasy-Kunst.
 
