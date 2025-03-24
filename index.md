@@ -40,6 +40,10 @@ public void createMesh() {
 }
 ```
 
+Eine Übersicht über die verfügbaren Modifikatoren sowie weitere Einblicke in deren Verwendung finden Sie hier:
+
+[Mesh Modifiers Documentation](https://github.com/ArtifactForms/MeshLibCore/blob/master/documentation/modifiers.md).
+
 ![image](images/image391.png)
 
 ### Chatbot Project
