@@ -44,6 +44,19 @@ Eine Übersicht über die verfügbaren Modifikatoren sowie weitere Einblicke in 
 
 [Mesh Modifiers Documentation](https://github.com/ArtifactForms/MeshLibCore/blob/master/documentation/modifiers.md)
 
+## HeroQuest Fan Art – Eine Hommage an klassische Fantasy-Illustrationen
+
+Anfang der 90er Jahre – es muss etwa 1992 gewesen sein – wurde ich durch einen Freund auf das Spiel HeroQuest aufmerksam. Schon damals faszinierte mich die Welt dieses Klassikers, insbesondere die Old-School-Fantasy-Illustrationen der Spielkarten. Die düsteren, detailreichen Zeichnungen weckten meine Begeisterung für visuelles Storytelling und die Ästhetik klassischer Fantasy-Kunst.
+
+Viele Jahre später, vermutlich Anfang der 2010er Jahre, begann ich damit, eigene Kartenillustrationen anzufertigen – in einer Zeit, in der künstliche Intelligenz noch keine Rolle in der kreativen Gestaltung spielte. Jedes Motiv entstand in mühevoller Handarbeit, inspiriert von den ikonischen Werken, die mich einst in meiner Kindheit in ihren Bann zogen.
+
+![grafik](https://github.com/user-attachments/assets/96ce3adf-6b46-413e-a5bc-e143a1b02afd)
+
+![grafik](https://github.com/user-attachments/assets/74f55bbc-05ff-42cb-a692-9e1981b84509)
+
+![grafik](https://github.com/user-attachments/assets/1a96b5bf-2e73-49d8-859b-1e81b489b926)
+
+
 ## NBT-Bibliothek
 
 Diese Bibliothek bietet Funktionen zum Lesen, Schreiben und Validieren von Named Binary Tag (NBT)-Dateien, die in Minecraft zur Datenspeicherung verwendet werden. Sie unterstützt das Lesen und Schreiben von komprimierten (Gzip) NBT-Dateien sowie das Erstellen von Schematic-Dateien (*.schematic).
