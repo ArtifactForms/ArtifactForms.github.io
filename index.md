@@ -50,6 +50,28 @@ Viele Jahre später, vermutlich Anfang der 2010er Jahre (2014), begann ich damit
 
 ![grafik](https://github.com/user-attachments/assets/26e36643-2d54-4caa-8299-8c935e6bebf9)
 
+## Enter the Gungeon Clone – Ein Lernprojekt mit viel Spaß
+
+Eines der Projekte, das mir besonders viel Freude bereitet hat, ist mein Enter the Gungeon Clone. Inspiriert vom erfolgreichen Indie-Spiel, wollte ich die Spielmechaniken auf meine eigene Weise umsetzen. Während das Original auf 3D-Technik setzt, basiert meine Version vollständig auf einer reinen Java 2D-Umgebung.
+
+Im Laufe der Entwicklung konnte ich viele spannende Konzepte und Techniken vertiefen, darunter:
+
+* Pixel UI – Gestaltung einer benutzerfreundlichen Oberfläche im klassischen Pixel-Art-Stil
+* Game States – Verwaltung von Spielzuständen wie Menü, Gameplay und Pause
+* Entity-Component-System (ECS) – Strukturierte Architektur für flexible und modulare Spiellogik
+* Pixel-Sprite-Animationen – Flüssige Bewegungsabläufe für Charaktere und Objekte
+* Tilemap-System – Erstellen und Laden von prozeduralen oder handgebauten Leveln
+* Kamera-Follow-System – Dynamische Kamera, die sich flüssig an den Spieler anpasst
+* Twin-Stick-Mechanik – Steuerung mit Tastatur und Maus für präzises Zielen
+* Item-Pickups – Sammelbare Gegenstände
+* Minimap – Übersichtskarte für eine bessere Orientierung im Dungeon
+* Raycasting – Berechnung von Sichtlinien
+
+Auch wenn das Projekt über einen Prototypen-Status nie hinausgekommen ist, war es eine unglaublich lehrreiche Erfahrung. Es hat mir geholfen, verschiedene Aspekte der Spieleentwicklung besser zu verstehen – und vor allem hat es jede Menge Spaß gemacht! 😊
+
+[![grafik](https://github.com/user-attachments/assets/64151fa9-c80d-4068-a0f5-be35a411316b)
+](https://www.youtube.com/watch?v=0uQLSrucCc0)
+
 ## Retro Game Jam – Eine Hommage an die Gameboy-Ära
 
 Als Kind der 80er und 90er, aufgewachsen mit dem Game Boy, schlummert in mir eine tiefe Leidenschaft für die Ästhetik von 8-Bit- und 16-Bit-Grafiken. Die pixelige, reduzierte Optik dieser Ära hat für mich bis heute einen besonderen Charme.
