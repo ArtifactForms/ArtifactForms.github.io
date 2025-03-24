@@ -69,6 +69,10 @@ Im Laufe der Entwicklung konnte ich viele spannende Konzepte und Techniken verti
 
 Auch wenn das Projekt über einen Prototypen-Status nie hinausgekommen ist, war es eine unglaublich lehrreiche Erfahrung. Es hat mir geholfen, verschiedene Aspekte der Spieleentwicklung besser zu verstehen – und vor allem hat es jede Menge Spaß gemacht! 😊
 
+Hier ein Auszug aus den von mir erstellten Waffen-Sprites – darunter auch eine ganz besondere: die Super Soaker, die legendäre Wasserpistole meiner Kindheit. 🚀💦
+
+![grafik](https://github.com/user-attachments/assets/164316fb-c0ba-4165-8e4b-52edbc3c580a)
+
 [![grafik](https://github.com/user-attachments/assets/64151fa9-c80d-4068-a0f5-be35a411316b)
 ](https://www.youtube.com/watch?v=0uQLSrucCc0)
 
