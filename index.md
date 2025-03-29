@@ -25,6 +25,8 @@ Der **Conway Explorer** nutzt diese Prinzipien, um auf spielerische Weise neue F
 
 Diese explorative Herangehensweise erlaubt es, Formwelten zu erkunden, ohne jede Modifikation manuell planen zu müssen. Der **Conway Explorer** ist somit nicht nur ein Werkzeug zur Geometrie-Generierung, sondern auch eine Inspirationsquelle für experimentelles Design und algorithmisch erzeugte Strukturen.
 
+Durch die Abbildung der prozentualen Anteile von Kis, Ambo und Dual – also wie häufig sie in der zufälligen Reihenfolge vorkommen – auf die RGB-Farbkomponenten kann ein zusätzlicher visueller Faktor integriert werden. So wird die strukturelle Zusammensetzung einer Form nicht nur geometrisch, sondern auch farblich erfahrbar gemacht.
+
 ![grafik](https://github.com/user-attachments/assets/71a495b2-0ada-4e2f-a847-f249b28a2d09)
 
 ## Mesh Modifikatoren  
