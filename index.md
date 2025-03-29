@@ -141,6 +141,15 @@ Das Projekt war bewusst minimalistisch gehalten und konzentrierte sich auf die E
 
 ![grafik](https://github.com/user-attachments/assets/c558a5e1-2459-472c-abc9-1d25399530c1)
 
+### Nine-Slice Borders  
+Nine-Slice Borders sind eine Technik zur **skalierbaren Darstellung von UI-Elementen**, ohne dass dabei die Pixel-Grafik verzerrt wird. Eine Grafik wird in **neun Bereiche** unterteilt: vier Ecken, vier Kanten und eine Mitte. Während die **Ecken unverändert bleiben**, werden die **Kanten nur in eine Richtung** (horizontal oder vertikal) gestreckt, und die **Mitte wird skaliert**, um das Element flexibel an verschiedene Größen anzupassen.  
+
+Diese Methode ist besonders nützlich für **Fenster, Buttons oder Panels**, die sich dynamisch vergrößern oder verkleinern müssen, während ihr **Pixel-artiger Stil** erhalten bleibt.  
+
+![grafik](https://github.com/user-attachments/assets/0e2f2e67-dc4f-4e2c-a8c7-823c05084d94)
+
+![grafik](https://github.com/user-attachments/assets/3e9ce81c-191b-4f1c-8a3e-440c2535159d)
+
 ## NBT-Bibliothek
 
 Diese Bibliothek bietet Funktionen zum Lesen, Schreiben und Validieren von Named Binary Tag (NBT)-Dateien, die in Minecraft zur Datenspeicherung verwendet werden. Sie unterstützt das Lesen und Schreiben von komprimierten (Gzip) NBT-Dateien sowie das Erstellen von Schematic-Dateien (*.schematic).
