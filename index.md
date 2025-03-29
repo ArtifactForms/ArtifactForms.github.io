@@ -148,8 +148,6 @@ Diese Methode ist besonders nützlich für **Fenster, Buttons oder Panels**, die
 
 ![grafik](https://github.com/user-attachments/assets/0e2f2e67-dc4f-4e2c-a8c7-823c05084d94)
 
-![grafik](https://github.com/user-attachments/assets/3e9ce81c-191b-4f1c-8a3e-440c2535159d)
-
 ## NBT-Bibliothek
 
 Diese Bibliothek bietet Funktionen zum Lesen, Schreiben und Validieren von Named Binary Tag (NBT)-Dateien, die in Minecraft zur Datenspeicherung verwendet werden. Sie unterstützt das Lesen und Schreiben von komprimierten (Gzip) NBT-Dateien sowie das Erstellen von Schematic-Dateien (*.schematic).
