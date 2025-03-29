@@ -125,6 +125,16 @@ Das Projekt war bewusst minimalistisch gehalten und konzentrierte sich auf die E
 [![grafik](https://github.com/user-attachments/assets/345063b1-1ebd-4e48-9ad7-cde07435ba60)
 ](https://www.youtube.com/watch?v=CspzAxke_QY)
 
+## Artifact 2D – Eine Java-2D-Pixel-Library  
+
+**Artifact 2D** ist eine vielseitige **Java-2D-Pixel-Library** mit integriertem **Layout-Management** und einer umfangreichen Auswahl an **Pixel-Borders**. Die Bibliothek bietet eine flexible UI-Struktur, mit der sich **Pixel-artige Benutzeroberflächen** effizient gestalten lassen.  
+
+### Features  
+- **Modulares Layout-Management** mit Ankerpunkten (Anchor-Based Layout)  
+- **Umfangreiche Auswahl an Pixel-Borders** für klassische Retro-UI-Elemente  
+- **Padding- und Border-Management** für UI-Komponenten  
+- **Einfache Integration und Erweiterbarkeit**  
+
 ## NBT-Bibliothek
 
 Diese Bibliothek bietet Funktionen zum Lesen, Schreiben und Validieren von Named Binary Tag (NBT)-Dateien, die in Minecraft zur Datenspeicherung verwendet werden. Sie unterstützt das Lesen und Schreiben von komprimierten (Gzip) NBT-Dateien sowie das Erstellen von Schematic-Dateien (*.schematic).
