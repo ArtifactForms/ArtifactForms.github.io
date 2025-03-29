@@ -133,7 +133,9 @@ Das Projekt war bewusst minimalistisch gehalten und konzentrierte sich auf die E
 - **Modulares Layout-Management** mit Ankerpunkten (Anchor-Based Layout)  
 - **Umfangreiche Auswahl an Pixel-Borders** für klassische Retro-UI-Elemente  
 - **Padding- und Border-Management** für UI-Komponenten  
-- **Einfache Integration und Erweiterbarkeit**  
+- **Einfache Integration und Erweiterbarkeit**
+
+![grafik](https://github.com/user-attachments/assets/1d8a5806-2f01-4c36-b95a-769621c8ab3b)
 
 ## NBT-Bibliothek
 
