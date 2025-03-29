@@ -29,6 +29,8 @@ Durch die Abbildung der prozentualen Anteile von Kis, Ambo und Dual – also wie
 
 ![grafik](https://github.com/user-attachments/assets/71a495b2-0ada-4e2f-a847-f249b28a2d09)
 
+![conway-2](https://github.com/user-attachments/assets/bc6f694a-88a6-40f8-a1b4-670d856af355)
+
 ## Mesh Modifikatoren  
 
 Im Laufe der Jahre habe ich eine Vielzahl an Mesh-Modifikatoren implementiert. Diese ermöglichen es, Grundformen durch gezielte Transformationen zu verändern und zu komplexen, oft unerwarteten Strukturen weiterzuentwickeln.  
