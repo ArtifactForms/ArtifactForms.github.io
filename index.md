@@ -3,6 +3,26 @@ Interdisziplinärer Entwickler & Kreativtechniker
 
 # Portfolio / Projekte
 
+## Conway Explorer – Eine spielerische Reise durch geometrische Transformationen
+
+### Einleitung: Was sind Conway-Operatoren?
+
+Conway-Operatoren sind ein System von grundlegenden Transformationen, die auf polyedrische Strukturen angewendet werden können, um neue, oft komplexere Formen zu erzeugen. Entwickelt von John Horton Conway, bieten sie eine elegante Möglichkeit, aus einfachen Geometrien detaillierte und facettenreiche Strukturen abzuleiten.
+
+Zu den bekanntesten Operatoren zählen:
+
+- **Dual (D)** – Vertauscht Kanten und Flächen eines Polyeders, wodurch das duale Polyeder entsteht.
+- **Amo (Ambo, A)** – Fügt an jeder Kante eine neue Fläche hinzu und erzeugt eine abgerundete Variante der ursprünglichen Form.
+- **Kis (K)** – Ersetzt jede Fläche durch eine Pyramide, wodurch ein stacheliges oder kristallartiges Aussehen entsteht.
+
+Diese Operatoren lassen sich auch kombinieren, wodurch eine nahezu unendliche Vielfalt an Formen entsteht.
+
+### Der Conway Explorer
+
+Der **Conway Explorer** nutzt diese Prinzipien, um auf spielerische Weise neue Formen zu generieren. Er nimmt eine zufällige Reihenfolge der Grundoperationen **Dual (D), Amo (A) und Kis (K)** und wendet sie auf eine gewählte Ausgangsform – etwa einen simplen Würfel – an. Durch diese zufallsgesteuerte Transformation entstehen immer wieder neue, oft überraschende Geometrien.
+
+Diese explorative Herangehensweise erlaubt es, Formwelten zu erkunden, ohne jede Modifikation manuell planen zu müssen. Der **Conway Explorer** ist somit nicht nur ein Werkzeug zur Geometrie-Generierung, sondern auch eine Inspirationsquelle für experimentelles Design und algorithmisch erzeugte Strukturen.
+
 ## Mesh Modifikatoren  
 
 Im Laufe der Jahre habe ich eine Vielzahl an Mesh-Modifikatoren implementiert. Diese ermöglichen es, Grundformen durch gezielte Transformationen zu verändern und zu komplexen, oft unerwarteten Strukturen weiterzuentwickeln.  
