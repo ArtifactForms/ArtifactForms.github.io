@@ -5,6 +5,8 @@ Interdisziplinärer Entwickler & Kreativtechniker
 
 ## Conway Explorer – Eine spielerische Reise durch geometrische Transformationen
 
+![0617](https://github.com/user-attachments/assets/69ef820f-ebcf-4eff-ad07-0ad145a03391)
+
 ### Einleitung: Was sind Conway-Operatoren?
 
 Conway-Operatoren sind ein System von grundlegenden Transformationen, die auf polyedrische Strukturen angewendet werden können, um neue, oft komplexere Formen zu erzeugen. Entwickelt von John Horton Conway, bieten sie eine elegante Möglichkeit, aus einfachen Geometrien detaillierte und facettenreiche Strukturen abzuleiten.
