@@ -267,6 +267,8 @@ public class BordersTest extends Game {
 }
 ```
 
+![grafik](https://github.com/user-attachments/assets/c558a5e1-2459-472c-abc9-1d25399530c1)
+
 ## NBT-Bibliothek
 
 Diese Bibliothek bietet Funktionen zum Lesen, Schreiben und Validieren von Named Binary Tag (NBT)-Dateien, die in Minecraft zur Datenspeicherung verwendet werden. Sie unterstützt das Lesen und Schreiben von komprimierten (Gzip) NBT-Dateien sowie das Erstellen von Schematic-Dateien (*.schematic).
