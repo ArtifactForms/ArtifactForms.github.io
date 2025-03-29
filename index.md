@@ -23,6 +23,8 @@ Der **Conway Explorer** nutzt diese Prinzipien, um auf spielerische Weise neue F
 
 Diese explorative Herangehensweise erlaubt es, Formwelten zu erkunden, ohne jede Modifikation manuell planen zu müssen. Der **Conway Explorer** ist somit nicht nur ein Werkzeug zur Geometrie-Generierung, sondern auch eine Inspirationsquelle für experimentelles Design und algorithmisch erzeugte Strukturen.
 
+![grafik](https://github.com/user-attachments/assets/71a495b2-0ada-4e2f-a847-f249b28a2d09)
+
 ## Mesh Modifikatoren  
 
 Im Laufe der Jahre habe ich eine Vielzahl an Mesh-Modifikatoren implementiert. Diese ermöglichen es, Grundformen durch gezielte Transformationen zu verändern und zu komplexen, oft unerwarteten Strukturen weiterzuentwickeln.  
