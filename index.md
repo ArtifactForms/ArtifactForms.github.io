@@ -196,6 +196,36 @@ Kernstück des Systems ist eine **Raycasting-Methode**, mit der bestimmt wird, o
 Durch die Nutzung des Möller-Trumbore-Algorithmus kann das Tool effizient berechnen, ob sich ein Block innerhalb der Mesh-Geometrie befindet.
 Dadurch wird eine nahtlose Umwandlung von 3D-Modellen in Minecraft-Strukturen ermöglicht, ohne dass manuelle Anpassungen nötig sind.
 
+## Meine Reise mit Minecraft  
+
+Minecraft hat mich schon immer fasziniert – nicht nur wegen seines einzigartigen Stellenwerts in der Popkultur, sondern auch wegen der frühen Werke seines Entwicklers und seiner Beiträge zum **Ludum Dare Game Jam**. Die Kombination aus **kreativer Freiheit**, **technischer Tiefe** und der **lebendigen Community** hat mich schnell in ihren Bann gezogen.  
+
+Doch mein Bezug zu Minecraft ging bald über das reine Gaming hinaus. Ich begann, **Server-Plugins** zu entwickeln, insbesondere für **Minigames** und **Bau-Tools**, um das Spielerlebnis zu erweitern. Dabei entdeckte ich nicht nur die technischen, sondern auch die kreativen Möglichkeiten des Spiels.  
+
+### Die Faszination des Bauens  
+
+Mit der Zeit tauchte ich tiefer in die **Builder-Szene** ein – eine Community talentierter Architekten, die mit Minecraft beeindruckende Welten erschaffen. Hier lernte ich, **effizient zu bauen**, ohne dabei den künstlerischen Anspruch aus den Augen zu verlieren.  
+
+**Farbpaletten, Harmonielehren und architektonische Konzepte** spielten eine zentrale Rolle in meinem Lernprozess. Ich begann, mich intensiver mit **Baustilen, Komposition und Detailarbeit** auseinanderzusetzen.
+
+### Pixel Biester & mein Trial-Projekt  
+
+Ich wurde Teil des bekannten **Pixel Biester Bauteams** und bin heute inaktives Mitglied.  
+Mein **Trial-Projekt** für das Team stand unter dem Thema **Empire** und umfasste Bauwerke im asiatischen Stil. Dabei habe ich mich intensiv mit **traditionellen asiatischen Architekturprinzipien** befasst, um authentische und atmosphärische Strukturen zu erschaffen.  
+
+In der **Minecraft-Community** bin ich unter dem Pseudonym **Ventzel** bekannt.  
+Hier ist ein Video meines **Trial-Projektes**, das einen Einblick in meine Bauweise gibt:  
+
+https://www.youtube.com/watch?v=Qb6aIGcBJ8Q
+
+![DwJk6HeWsAEDUIP](https://github.com/user-attachments/assets/ad8d9f05-54fd-4807-8d56-2535c83fc490)
+
+![DwJk7hIWwAIFaQl](https://github.com/user-attachments/assets/34ba9574-a0e9-4a62-bba0-caae67fc6e4a)
+
+![DwJk985XgAEACS0](https://github.com/user-attachments/assets/4b5fdb61-c436-4115-a586-30c524bcf919)
+
+![DwJk_2hW0AA0i3x](https://github.com/user-attachments/assets/7d691d98-7e73-40de-81a5-0b117ebe6072)
+
 ## NBT-Bibliothek
 
 Diese Bibliothek bietet Funktionen zum Lesen, Schreiben und Validieren von Named Binary Tag (NBT)-Dateien, die in Minecraft zur Datenspeicherung verwendet werden. Sie unterstützt das Lesen und Schreiben von komprimierten (Gzip) NBT-Dateien sowie das Erstellen von Schematic-Dateien (*.schematic).
