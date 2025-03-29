@@ -210,6 +210,8 @@ Mit der Zeit tauchte ich tiefer in die **Builder-Szene** ein – eine Community 
 
 ### Pixel Biester & mein Trial-Projekt  
 
+![1500x500](https://github.com/user-attachments/assets/13e150ca-f3da-4184-8a87-6fb5edff57dd)
+
 Ich wurde Teil des bekannten **Pixel Biester Bauteams** und bin heute inaktives Mitglied.  
 Mein **Trial-Projekt** für das Team stand unter dem Thema **Empire** und umfasste Bauwerke im asiatischen Stil. Dabei habe ich mich intensiv mit **traditionellen asiatischen Architekturprinzipien** befasst, um authentische und atmosphärische Strukturen zu erschaffen.  
 
