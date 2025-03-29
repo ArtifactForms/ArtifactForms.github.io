@@ -218,7 +218,8 @@ Mein **Trial-Projekt** für das Team stand unter dem Thema **Empire** und umfass
 In der **Minecraft-Community** bin ich unter dem Pseudonym **Ventzel** bekannt.  
 Hier ist ein Video meines **Trial-Projektes**, das einen Einblick in meine Bauweise gibt:  
 
-https://www.youtube.com/watch?v=Qb6aIGcBJ8Q
+[![grafik](https://github.com/user-attachments/assets/f0905247-87a5-435e-87f5-7d524d657568)
+](https://www.youtube.com/watch?v=Qb6aIGcBJ8Q)
 
 ![DwJk6HeWsAEDUIP](https://github.com/user-attachments/assets/ad8d9f05-54fd-4807-8d56-2535c83fc490)
 render by @TheMrPinguin_ (2019)
