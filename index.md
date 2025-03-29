@@ -148,6 +148,54 @@ Diese Methode ist besonders nützlich für **Fenster, Buttons oder Panels**, die
 
 ![grafik](https://github.com/user-attachments/assets/0e2f2e67-dc4f-4e2c-a8c7-823c05084d94)
 
+## Artifact Block Out – 3D-Modelle in Minecraft übertragen  
+
+**Artifact Block Out** ist ein Tool, das **3D-Modelle im OBJ-Format** direkt in **Minecraft-Welten** überträgt.  
+Im Jahr **2021** wurde ich von einem Bauteam gebeten, eine Lösung zu entwickeln, um große 3D-Modelle aus **Blender** effizient in Minecraft zu importieren.  
+
+### Hintergrund  
+Zuvor hatte das Team versucht, den Prozess mit dem **Online-Voxelizer von Drububu** zu automatisieren.  
+Während dieses Tool die Möglichkeit bietet, **Voxel-Daten als Minecraft-Schematics** zu exportieren, gab es **wesentliche Einschränkungen**:  
+- **Maximale Größe & Blockanzahl** führten zu Problemen bei großen Modellen.  
+- Das Modell musste manuell in kleinere Teile aufgeteilt und einzeln importiert werden.  
+- Dies machte den gesamten Workflow **langsam und mühsam**.  
+
+### Die Lösung  
+Um diese Herausforderungen zu umgehen, entwickelte ich ein eigenes Tool, das **OBJ-Modelle direkt in Minecraft-Welten** überträgt.  
+Kernstück des Systems ist eine **Raycasting-Methode**, mit der bestimmt wird, ob ein Block **innerhalb oder außerhalb des Meshes** liegt.  
+
+### Code-Ausschnitt: Mesh-Check durch Raycasting  
+
+```java
+    /**
+     * Casts a ray against the triangles of this chunk. Ray starts a the specified
+     * location in world coordinate space.
+     * 
+     * @param x in world coordinate space
+     * @param y in world coordinate space
+     * @param z in world coordinate space
+     * @return true if the specified block is inside the mesh
+     */
+    private static boolean insideMesh(float x, float y, float z, Mesh3D mesh, List<Face3D> faces) {
+	int intersections = 0;
+	Vector3f orig = new Vector3f(x, y, z);
+	Vector3f dir = new Vector3f(0.0001f, 1, 0);
+	for (Face3D triangle : faces) {
+	    Vector3f vertex0 = mesh.getVertexAt(triangle.indices[0]);
+	    Vector3f vertex1 = mesh.getVertexAt(triangle.indices[1]);
+	    Vector3f vertex2 = mesh.getVertexAt(triangle.indices[2]);
+	    boolean intersects = MollerTrumbore.rayIntersectsTriangle(orig, dir, vertex0, vertex1, vertex2,
+		    new Vector3f());
+	    if (intersects)
+		intersections++;
+	}
+	return intersections % 2 != 0;
+    }
+```
+
+Durch die Nutzung des Möller-Trumbore-Algorithmus kann das Tool effizient berechnen, ob sich ein Block innerhalb der Mesh-Geometrie befindet.
+Dadurch wird eine nahtlose Umwandlung von 3D-Modellen in Minecraft-Strukturen ermöglicht, ohne dass manuelle Anpassungen nötig sind.
+
 ## NBT-Bibliothek
 
 Diese Bibliothek bietet Funktionen zum Lesen, Schreiben und Validieren von Named Binary Tag (NBT)-Dateien, die in Minecraft zur Datenspeicherung verwendet werden. Sie unterstützt das Lesen und Schreiben von komprimierten (Gzip) NBT-Dateien sowie das Erstellen von Schematic-Dateien (*.schematic).
