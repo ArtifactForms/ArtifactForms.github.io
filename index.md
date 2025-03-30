@@ -7,9 +7,9 @@ Dieses Portfolio ist kein klassischer Lebenslauf und auch keine Bewerbung im her
 
 ## Die Theorie U als Rahmen für meinen kreativen Prozess
 
-Dieses Portfolio ist mehr als eine Sammlung von Arbeiten – es ist eine Reise. Eine Reise durch Erfahrungen, Veränderungen und kreative Entfaltung. Inspiriert von Otto Scharmers Theorie U möchte ich meinen Schaffensprozess nicht als statische Darstellung, sondern als lebendige Bewegung begreifen: ein Prozess des Loslassens, Erspürens und Neugestaltens.
+Dieses Portfolio ist mehr als eine Sammlung von Arbeiten – es ist eine Reise. Eine Reise durch Erfahrungen, Veränderungen und kreative Entfaltung. Inspiriert von Otto Scharmers **Theorie U** möchte ich meinen Schaffensprozess nicht als statische Darstellung, sondern als lebendige Bewegung begreifen: ein Prozess des **Loslassens, Erspürens und Neugestaltens.**
 
-Die Theorie U hilft mir, meine eigene Entwicklung bewusst zu reflektieren. Was hat mich geprägt? Welche Muster durfte ich hinter mir lassen? Welche Möglichkeiten eröffnen sich im Hier und Jetzt? Und vor allem: Wohin führt mich mein kreativer Weg?
+Die Theorie U hilft mir, meine eigene Entwicklung bewusst zu reflektieren. **Was hat mich geprägt?** Welche Muster durfte ich hinter mir lassen? **Welche Möglichkeiten eröffnen sich im Hier und Jetzt?** Und vor allem: **Wohin führt mich mein kreativer Weg?**
 
 In diesem Portfolio spiegelt sich genau dieser Prozess wider. Ich lasse Vergangenes Revue passieren, entdecke neue Perspektiven und entwerfe eine Zukunft, die mich inspiriert. Es ist ein Raum zum Experimentieren, zum Ausprobieren und zum Wachsen – eine Sandbox, in der ich meine Ideen und meine Persönlichkeit sichtbar mache.
 
