@@ -15,7 +15,7 @@ In diesem Portfolio spiegelt sich genau dieser Prozess wider. Ich lasse Vergange
 
 ## Kreativität trifft Ausdruck: Meine Erfahrung mit Style-Writing & Jugendprojekten
 
-Im Jahr 2024 hatte ich die einmalige Gelegenheit, dem Künstler Carlos Lorente – Gründer und Geschäftsführer der Style Scouts Akademie Nürnberg – zu hospitieren. Diese Erfahrung war für mich in vielerlei Hinsicht bereichernd: Sie ermöglichte es mir nicht nur, meine eigene kreative Ader wiederzuentdecken und den Alltag neu zu erproben, sondern auch positive Impulse zu erleben.
+Im Jahr 2024 hatte ich die einmalige Gelegenheit, dem Künstler **Carlos Lorente** – Gründer und Geschäftsführer der **Style Scouts** Akademie Nürnberg – zu hospitieren. Diese Erfahrung war für mich in vielerlei Hinsicht bereichernd: Sie ermöglichte es mir nicht nur, meine eigene kreative Ader wiederzuentdecken und den Alltag neu zu erproben, sondern auch positive Impulse zu erleben.
 
 Ich konnte mich aktiv einbringen, aber auch wertvolle Erkenntnisse aus der Situation gewinnen. Besonders faszinierend war es, mein Interesse für Style-Writing – die Kunst, nicht nur zu schreiben, sondern mit Stil zu gestalten – auszuleben. Meine Ausbildung als Jugendleiter sowie meine pädagogischen Qualifikationen kamen mir dabei zugute, insbesondere in der Arbeit mit Jugendlichen aus unterschiedlichsten sozialen Hintergründen.
 
