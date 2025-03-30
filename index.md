@@ -12,7 +12,8 @@ Ich konnte mich aktiv einbringen, aber auch wertvolle Erkenntnisse aus der Situa
 Ein Höhepunkt dieser Zeit war ein mehrtägiger Workshop in Zusammenarbeit mit der N-ERGIE Nürnberg, in dessen Rahmen eine Trafostation in Petersaurach kreativ gestaltet wurde. Dieses beeindruckende Projekt fand nicht nur großen Anklang bei den Teilnehmenden, sondern wurde auch von der Presse gewürdigt.
 
 ![grafik](https://github.com/user-attachments/assets/a45832b7-3352-45e7-81fc-42f7ce0ae4de)
-Foto: Jugendliche aus Petersaurach präsentierten ihr Kunstwerk (von links unten) Markus Prokopczuk, kommunaler Kundenbetreuer bei der N-ERGIE, Rektorin Christiane Nebert und Petersaurachs Bürgermeister Herbert Albrecht. Angeleitet wurde das Projekt von Graffiti-Künstler Carlos Lorente (unten rechts). Daneben Claudia Jordan von der N-ERGIE Schulinformation
+
+##### Foto: Jugendliche aus Petersaurach präsentierten ihr Kunstwerk (von links unten) Markus Prokopczuk, kommunaler Kundenbetreuer bei der N-ERGIE, Rektorin Christiane Nebert und Petersaurachs Bürgermeister Herbert Albrecht. Angeleitet wurde das Projekt von Graffiti-Künstler Carlos Lorente (unten rechts). Daneben Claudia Jordan von der N-ERGIE Schulinformation
 
 https://www.radio8.de/petersaurach-jugendliche-verwandeln-trafostation-in-kunstwerk-346867/
 
