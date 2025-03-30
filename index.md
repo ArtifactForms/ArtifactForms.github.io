@@ -25,13 +25,9 @@ Ein Höhepunkt dieser Zeit war ein mehrtägiger Workshop in Zusammenarbeit mit d
 
 ##### Foto: Jugendliche aus Petersaurach präsentierten ihr Kunstwerk (von links unten) Markus Prokopczuk, kommunaler Kundenbetreuer bei der N-ERGIE, Rektorin Christiane Nebert und Petersaurachs Bürgermeister Herbert Albrecht. Angeleitet wurde das Projekt von Graffiti-Künstler Carlos Lorente (unten rechts). Daneben Claudia Jordan von der N-ERGIE Schulinformation
 
-https://magazin.n-ergie.de/artikel/graffiti-aktion-aus-trafostationen-werden-kunstwerke/
+[Artikel N-Ergie Magazin](https://magazin.n-ergie.de/artikel/graffiti-aktion-aus-trafostationen-werden-kunstwerke/)
 
-https://www.radio8.de/petersaurach-jugendliche-verwandeln-trafostation-in-kunstwerk-346867/
-
-Trafostation Muhr am See
-
-https://www.falk-report.de/2024/07/trafostation-in-neuem-outfit/
+[Artikel Radio 8](https://www.radio8.de/petersaurach-jugendliche-verwandeln-trafostation-in-kunstwerk-346867/)
 
 ## Conway Explorer – Eine spielerische Reise durch geometrische Transformationen
 
