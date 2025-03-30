@@ -21,7 +21,7 @@ Ich konnte mich aktiv einbringen, aber auch wertvolle Erkenntnisse aus der Situa
 
 Ein Höhepunkt dieser Zeit war ein mehrtägiger Workshop in Zusammenarbeit mit der N-ERGIE Nürnberg, in dessen Rahmen eine Trafostation in Petersaurach kreativ gestaltet wurde. Dieses beeindruckende Projekt fand nicht nur großen Anklang bei den Teilnehmenden, sondern wurde auch von der Presse gewürdigt.
 
-[Artikel N-Ergie Magazin](https://magazin.n-ergie.de/artikel/graffiti-aktion-aus-trafostationen-werden-kunstwerke/)
+[Artikel N-ERGIE Magazin](https://magazin.n-ergie.de/artikel/graffiti-aktion-aus-trafostationen-werden-kunstwerke/)
 
 [Artikel Radio 8](https://www.radio8.de/petersaurach-jugendliche-verwandeln-trafostation-in-kunstwerk-346867/)
 
