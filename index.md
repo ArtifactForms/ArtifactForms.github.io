@@ -3,6 +3,18 @@ Interdisziplinärer Entwickler & Kreativtechniker
 
 # Portfolio / Projekte
 
+## Kreativität trifft Ausdruck: Meine Erfahrung mit Style-Writing & Jugendprojekten
+
+Im Jahr 2024 hatte ich die einmalige Gelegenheit, dem Künstler Carlos Lorente – Gründer und Geschäftsführer der Style Scouts Akademie Nürnberg – zu hospitieren. Diese Erfahrung war für mich in vielerlei Hinsicht bereichernd: Sie ermöglichte es mir nicht nur, meine eigene kreative Ader wiederzuentdecken und den Alltag neu zu erproben, sondern auch positive Impulse zu erleben.
+
+Ich konnte mich aktiv einbringen, aber auch wertvolle Erkenntnisse aus der Situation gewinnen. Besonders faszinierend war es, mein Interesse für Style-Writing – die Kunst, nicht nur zu schreiben, sondern mit Stil zu gestalten – auszuleben. Meine Ausbildung als Jugendleiter sowie meine pädagogischen Qualifikationen kamen mir dabei zugute, insbesondere in der Arbeit mit Jugendlichen aus unterschiedlichsten sozialen Hintergründen.
+
+Ein Höhepunkt dieser Zeit war ein mehrtägiger Workshop in Zusammenarbeit mit der N-ERGIE Nürnberg, in dessen Rahmen eine Trafostation in Petersaurach kreativ gestaltet wurde. Dieses beeindruckende Projekt fand nicht nur großen Anklang bei den Teilnehmenden, sondern wurde auch von der Presse gewürdigt.
+
+![grafik](https://github.com/user-attachments/assets/a45832b7-3352-45e7-81fc-42f7ce0ae4de)
+
+https://www.radio8.de/petersaurach-jugendliche-verwandeln-trafostation-in-kunstwerk-346867/
+
 ## Conway Explorer – Eine spielerische Reise durch geometrische Transformationen
 
 ![0617](https://github.com/user-attachments/assets/69ef820f-ebcf-4eff-ad07-0ad145a03391)
