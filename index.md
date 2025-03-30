@@ -17,6 +17,10 @@ Ein Höhepunkt dieser Zeit war ein mehrtägiger Workshop in Zusammenarbeit mit d
 
 https://www.radio8.de/petersaurach-jugendliche-verwandeln-trafostation-in-kunstwerk-346867/
 
+Trafostation Muhr am See
+
+https://www.falk-report.de/2024/07/trafostation-in-neuem-outfit/
+
 ## Conway Explorer – Eine spielerische Reise durch geometrische Transformationen
 
 ![0617](https://github.com/user-attachments/assets/69ef820f-ebcf-4eff-ad07-0ad145a03391)
