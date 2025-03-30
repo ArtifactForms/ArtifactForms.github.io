@@ -18,7 +18,7 @@ The exploratory nature of Creative Coding invites a reevaluation of traditional 
 ### **5. Conclusion**  
 Creative Coding expands the understanding of artistic practice, revealing that code is not just an instrument of analysis but also one of sensation and aesthetic experience. Those who engage with this process discover a new way of shaping—one that unfolds in the interplay between structure and intuition.  
 
-**Creative Coding als Form des Spürens & Gestaltens**
+# **Creative Coding als Form des Spürens & Gestaltens**
 
 ### Einleitung
 In der digitalen Welt wird Programmieren oft als eine rein logische, regelbasierte Disziplin betrachtet. Doch im Bereich des *Creative Coding* verschwimmen die Grenzen zwischen Kunst, Design und Algorithmik. Anstatt Code als bloßes Werkzeug zur Problemlösung zu sehen, wird er hier zum Medium des Ausdrucks, der Exploration und der Intuition. Creative Coding ist eine Art des Spürens und Gestaltens, die technische Präzision mit künstlerischer Offenheit verbindet.
