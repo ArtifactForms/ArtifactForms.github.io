@@ -1,7 +1,9 @@
 # Simon Dietz
 Interdisziplinärer Entwickler & Kreativtechniker
 
-# Portfolio / Projekte
+# Über mich – Eine kreative Sandbox
+
+Dieses Portfolio ist kein klassischer Lebenslauf und auch keine Bewerbung im herkömmlichen Sinne. Vielmehr ist es eine spielerische Reflexion meiner Reise – eine kreative Sandbox, in der ich meine Erfahrungen, Interessen und Entwicklungen sichtbar mache. Hier geht es um meine Leidenschaft für Style-Writing, digitale Kunst und Softwareentwicklung, um meinen Weg durch verschiedene Lebensstationen und um die Erkenntnisse, die mich geprägt haben. Ohne feste Grenzen, aber mit viel Raum für Ausdruck.
 
 ## Kreativität trifft Ausdruck: Meine Erfahrung mit Style-Writing & Jugendprojekten
 
