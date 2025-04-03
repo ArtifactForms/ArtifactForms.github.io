@@ -113,6 +113,10 @@ Viele Jahre später, vermutlich Anfang der 2010er Jahre (2014), begann ich damit
 
 Dieses Projekt reflektiert über Vergänglichkeit und den Verlust von Struktur. Inspiriert von natürlichen Erosionsprozessen in der Natur, bringt "Zerfall" die Fragilität digitaler Geometrien zum Ausdruck.
 
+"Zerfall" ("decay") is a visual study on the transience of structures. A geometric surface begins as a clearly defined shape and undergoes an unpredictable process of dissolution. The decay happens rapidly and inexorably, beyond the viewer's control or influence.
+
+This project reflects on impermanence and the loss of structure. Inspired by natural erosion processes, Zerfall (decay) expresses the fragility of digital geometries.
+
 ![grafik](https://github.com/user-attachments/assets/5d9b8480-b014-4d6e-a30c-1e5d208a5af6)
 
 ![grafik](https://github.com/user-attachments/assets/37d6f802-9e83-4cb4-90f3-eb463eaa13de)
