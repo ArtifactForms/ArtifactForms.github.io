@@ -107,6 +107,18 @@ Viele Jahre später, vermutlich Anfang der 2010er Jahre (2014), begann ich damit
 
 ![grafik](https://github.com/user-attachments/assets/26e36643-2d54-4caa-8299-8c935e6bebf9)
 
+## Zerfall
+
+"Zerfall" ist eine visuelle Studie zur Vergänglichkeit von Strukturen. Eine geometrische Fläche beginnt als klar definierte Form und durchläuft einen unvorhersehbaren Prozess der Auflösung. Der Zerfall erfolgt schnell und unaufhaltsam, ohne dass der Betrachter eingreifen oder ihn steuern kann.
+
+Dieses Projekt reflektiert über Vergänglichkeit und den Verlust von Struktur. Inspiriert von natürlichen Erosionsprozessen in der Natur, bringt "Zerfall" die Fragilität digitaler Geometrien zum Ausdruck.
+
+![grafik](https://github.com/user-attachments/assets/5d9b8480-b014-4d6e-a30c-1e5d208a5af6)
+
+![grafik](https://github.com/user-attachments/assets/37d6f802-9e83-4cb4-90f3-eb463eaa13de)
+
+![grafik](https://github.com/user-attachments/assets/793e9977-fb4d-4783-9ed9-3b3464d7cbae)
+
 ## Enter the Gungeon Clone – Ein Lernprojekt mit viel Spaß
 
 Eines der Projekte, das mir besonders viel Freude bereitet hat, ist mein Enter the Gungeon Clone. Inspiriert vom erfolgreichen Indie-Spiel, wollte ich die Spielmechaniken auf meine eigene Weise umsetzen. Während das Original auf 3D-Technik setzt, basiert meine Version vollständig auf einer reinen Java 2D-Umgebung.
