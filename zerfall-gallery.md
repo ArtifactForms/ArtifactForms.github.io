@@ -1,5 +1,13 @@
 # Zerfall - Gallery
 
+"Zerfall" ist eine visuelle Studie zur Vergänglichkeit von Strukturen. Eine geometrische Fläche beginnt als klar definierte Form und durchläuft einen unvorhersehbaren Prozess der Auflösung. Der Zerfall erfolgt schnell und unaufhaltsam, ohne dass der Betrachter eingreifen oder ihn steuern kann.
+
+Dieses Projekt reflektiert über Vergänglichkeit und den Verlust von Struktur. Inspiriert von natürlichen Erosionsprozessen in der Natur, bringt "Zerfall" die Fragilität digitaler Geometrien zum Ausdruck.
+
+"Zerfall" ("decay") is a visual study on the transience of structures. A geometric surface begins as a clearly defined shape and undergoes an unpredictable process of dissolution. The decay happens rapidly and inexorably, beyond the viewer's control or influence.
+
+This project reflects on impermanence and the loss of structure. Inspired by natural erosion processes, Zerfall (decay) expresses the fragility of digital geometries.
+
 ![zerfall-001108](https://github.com/user-attachments/assets/384cbdd0-2d0a-42de-a057-d77ffb7473be)
 
 ![zerfall-000347](https://github.com/user-attachments/assets/0082c10c-6b41-447e-b047-66b9ddcf6c75)
