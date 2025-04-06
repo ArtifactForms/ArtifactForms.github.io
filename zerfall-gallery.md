@@ -8,6 +8,8 @@ Dieses Projekt reflektiert über Vergänglichkeit und den Verlust von Struktur. 
 
 This project reflects on impermanence and the loss of structure. Inspired by natural erosion processes, Zerfall (decay) expresses the fragility of digital geometries.
 
+![zerfall3](https://github.com/user-attachments/assets/995c870e-f86a-48f3-b15a-1a6820b73c64)
+
 ![zerfall-001108](https://github.com/user-attachments/assets/384cbdd0-2d0a-42de-a057-d77ffb7473be)
 
 ![zerfall-000347](https://github.com/user-attachments/assets/0082c10c-6b41-447e-b047-66b9ddcf6c75)
