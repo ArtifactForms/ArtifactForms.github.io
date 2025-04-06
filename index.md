@@ -125,6 +125,8 @@ This project reflects on impermanence and the loss of structure. Inspired by nat
 
 ![grafik](https://github.com/user-attachments/assets/793e9977-fb4d-4783-9ed9-3b3464d7cbae)
 
+[Gallery](https://github.com/ArtifactForms/ArtifactForms.github.io/blob/main/zerfall-gallery.md)
+
 ## Enter the Gungeon Clone – Ein Lernprojekt mit viel Spaß
 
 Eines der Projekte, das mir besonders viel Freude bereitet hat, ist mein Enter the Gungeon Clone. Inspiriert vom erfolgreichen Indie-Spiel, wollte ich die Spielmechaniken auf meine eigene Weise umsetzen. Während das Original auf 3D-Technik setzt, basiert meine Version vollständig auf einer reinen Java 2D-Umgebung.
