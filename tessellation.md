@@ -24,3 +24,7 @@ https://www.youtube.com/watch?v=VbOq_vLgCno
 https://www.youtube.com/watch?v=L2uASzcrUAE
 
 https://youtu.be/Ax3LJ2TLNzs?si=3co18HDQDlcyiK7c
+
+Computer based design of Islamic geometric patterns
+
+https://youtu.be/FBn6VgoF3fE?si=hlJAiTgfhqSnluNX
