@@ -29,6 +29,20 @@ Ein Höhepunkt dieser Zeit war ein mehrtägiger Workshop in Zusammenarbeit mit d
 
 ##### Foto: Jugendliche aus Petersaurach präsentierten ihr Kunstwerk (von links unten) Markus Prokopczuk, kommunaler Kundenbetreuer bei der N-ERGIE, Rektorin Christiane Nebert und Petersaurachs Bürgermeister Herbert Albrecht. Angeleitet wurde das Projekt von Graffiti-Künstler Carlos Lorente (unten rechts). Daneben Claudia Jordan von der N-ERGIE Schulinformation
 
+### Artifact Forms
+
+![banner-1](https://github.com/user-attachments/assets/70fdba68-3177-4bb8-b19f-f5bf92840ee8)
+
+A Personal 3D Project - Explore the world of 3D geometry with this open-source Java library, built as a learning project.
+
+**Background / Intension**
+
+This Java library began as a hobby project in 2015/2016. I started it to deepen my understanding of creating and manipulating 3D geometry. This built upon knowledge I gained from an earlier internship with product design students. During that time, I was introduced to the programming language Processing.
+
+Processing captivated me from the start. Designed for visual learners, Processing is a great tool to get started with programming. You can learn more at processing.org. While Processing isn't strictly necessary, the library's core functionality is independent of the Processing environment. However, Processing offers a convenient way to visualize constructed meshes through its rendering pipeline, which leverages JAVA, JAVA2D, and OPENGL.
+
+[MeshLib on Github](https://github.com/ArtifactForms/MeshLibCore)
+
 ## Conway Explorer – Eine spielerische Reise durch geometrische Transformationen
 
 ![0617](https://github.com/user-attachments/assets/69ef820f-ebcf-4eff-ad07-0ad145a03391)
@@ -302,18 +316,6 @@ A simple chat bot.
 If you are interested in learning more about chatbots and following the progress of my project, including my learning journey, please feel free to consult my project documentation. It will be updated regularly throughout the project.
 
 [ChatBot Project Documentation](https://artifactforms.github.io/ChatBot/documentation/project.html)
-
-### Artifact Forms
-
-A Personal 3D Project - Explore the world of 3D geometry with this open-source Java library, built as a learning project.
-
-**Background / Intension**
-
-This Java library began as a hobby project in 2015/2016. I started it to deepen my understanding of creating and manipulating 3D geometry. This built upon knowledge I gained from an earlier internship with product design students. During that time, I was introduced to the programming language Processing.
-
-Processing captivated me from the start. Designed for visual learners, Processing is a great tool to get started with programming. You can learn more at processing.org. While Processing isn't strictly necessary, the library's core functionality is independent of the Processing environment. However, Processing offers a convenient way to visualize constructed meshes through its rendering pipeline, which leverages JAVA, JAVA2D, and OPENGL.
-
-[MeshLib on Github](https://github.com/ArtifactForms/MeshLibCore)
 
 ## Languages & Tools
 <p align="left">
