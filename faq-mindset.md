@@ -43,10 +43,13 @@ Agile Softwareentwicklung heißt nicht nur, „agil“ zu sein oder stur dem Agi
 Für mich lassen sich agile Methoden auf zwei zentrale Konzepte reduzieren: „früh scheitern“ und „schnell scheitern“.
 
 - **Früh scheitern (Failing Early):** Potenzielle Probleme möglichst früh im Entwicklungsprozess erkennen – durch häufiges Testen, Code-Reviews und Feedback-Schleifen.
+
 - **Schnell scheitern (Failing Fast):** Erkennt man ein Problem, wird es umgehend angegangen und behoben, ohne Verzögerung. So lernt man schnell und minimiert Schäden.
 
 Nur wenn wir früh Fehler entdecken und sie schnell beheben, können wir kontinuierlich besser werden, Risiken reduzieren und Ressourcen effizient einsetzen.
 
+> „The only reason why we do Agile is to fail early“
+> Robert C. Martin
 ---
 
 ## Was weiß ich über Scrum – und habe ich Erfahrung damit?  
