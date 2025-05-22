@@ -49,7 +49,9 @@ Für mich lassen sich agile Methoden auf zwei zentrale Konzepte reduzieren: „f
 Nur wenn wir früh Fehler entdecken und sie schnell beheben, können wir kontinuierlich besser werden, Risiken reduzieren und Ressourcen effizient einsetzen.
 
 > „The only reason why we do Agile is to fail early“
+>
 > Robert C. Martin
+
 ---
 
 ## Was weiß ich über Scrum – und habe ich Erfahrung damit?  
