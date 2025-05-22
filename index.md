@@ -29,7 +29,7 @@ Ein Höhepunkt dieser Zeit war ein mehrtägiger Workshop in Zusammenarbeit mit d
 
 ##### Foto: Jugendliche aus Petersaurach präsentierten ihr Kunstwerk (von links unten) Markus Prokopczuk, kommunaler Kundenbetreuer bei der N-ERGIE, Rektorin Christiane Nebert und Petersaurachs Bürgermeister Herbert Albrecht. Angeleitet wurde das Projekt von Graffiti-Künstler Carlos Lorente (unten rechts). Daneben Claudia Jordan von der N-ERGIE Schulinformation
 
-### Artifact Forms
+## Artifact Forms
 
 ![banner-1](https://github.com/user-attachments/assets/70fdba68-3177-4bb8-b19f-f5bf92840ee8)
 
