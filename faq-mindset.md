@@ -18,25 +18,25 @@ Dieses persönliche FAQ ist ein Versuch, mein Denken und Handeln transparent zu 
 
 ## Was ist mir wichtig?
 
-- **Gesehen zu werden.**  
+- **Gesehen zu werden**  
   Nicht nur mit dem, was ich tue – sondern mit dem, was mich ausmacht. Als Mensch.
 
-- **In Gemeinschaft zu sein.**  
+- **In Gemeinschaft zu sein**  
   Echte Verbindung, gegenseitige Aufmerksamkeit und Raum für Austausch sind für mich essenziell.
 
-- **Ein unterstützendes Umfeld.**  
+- **Ein unterstützendes Umfeld**  
   Kein Leistungsdruck um jeden Preis, sondern Rückhalt. Ein Ort, an dem ich wachsen, mich entfalten und mein Potenzial ausschöpfen kann.
 
-- **Gleichgewicht im Geben und Nehmen.**  
+- **Gleichgewicht im Geben und Nehmen**  
   Nachhaltige Zusammenarbeit entsteht, wenn Wertschätzung und Verantwortung in Balance stehen.
 
-- **Teil eines größeren Ganzen zu sein.**  
+- **Teil eines größeren Ganzen zu sein**  
   Ich wünsche mir ein Umfeld, in dem man gemeinsam an Visionen arbeitet und diese auch lebt – nicht nur formuliert.
 
-- **Außenwahrnehmung.**  
+- **Außenwahrnehmung**  
   Ich möchte nicht als jemand wahrgenommen werden, der glaubt „die Weisheit mit Löffeln gefressen zu haben“, sondern als ein Mensch, der offen denkt, Fragen stellt und Impulse gibt.
 
-- **Raum für Vielseitigkeit.**  
+- **Raum für Vielseitigkeit**  
   Meine Gedanken fließen oft in verschiedene Richtungen – das ist keine Schwäche, sondern eine Quelle für Kreativität und neue Perspektiven.
 
 ---
