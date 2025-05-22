@@ -1,9 +1,3 @@
-# Mein persönlicher Ansatz
-
-Ich bin so vielseitig und wandelbar wie mein Leben selbst. Ich werde nie „fertig“ sein, sondern strebe kontinuierlich nach neuen Impulsen, Austausch und Kreativität. Mein Ziel? Die Welt und unsere Gesellschaft immer wieder neu denken – ganz im Sinne von Otto Scharmer und Robert C. Martin. Wir tragen eine ethische Verantwortung für die Zukunft und haben die Aufgabe, sie aktiv zu gestalten.
-
----
-
 # Persönliches FAQ
 
 Hier halte ich meine Gedanken, Wertvorstellungen und Visionen zu Gesellschaft, Arbeitswelt und Wandel fest. Dieses Mindset ist bewusst offen und wandelbar – es formt sich mit jedem neuen Impuls weiter.
@@ -15,6 +9,12 @@ Ich möchte Bewerbung neu denken.
 Anstatt den klassischen Weg zu gehen, gestalte ich meine Bewerbung im Sinne des Design Thinking und schicke Prototypen in die Welt. Statt mich auf eine reine Auflistung von Tools, Zertifikaten und Know-how zu beschränken, möchte ich mich als Person ganzheitlich zeigen – mit meinen Werten, Stärken, Fragen und Entwicklungspotenzialen.
 
 Dieses persönliche FAQ ist ein Versuch, mein Denken und Handeln transparent zu machen. Es ist kein starres Konstrukt, sondern ein offener Entwurf.
+
+## Mein persönlicher Ansatz
+
+Ich bin so vielseitig und wandelbar wie mein Leben selbst. Ich werde nie „fertig“ sein, sondern strebe kontinuierlich nach neuen Impulsen, Austausch und Kreativität. Mein Ziel? Die Welt und unsere Gesellschaft immer wieder neu denken – ganz im Sinne von Otto Scharmer und Robert C. Martin. Wir tragen eine ethische Verantwortung für die Zukunft und haben die Aufgabe, sie aktiv zu gestalten.
+
+---
 
 ## Was macht einen guten Entwickler oder eine gute Entwicklerin aus?
 
