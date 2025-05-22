@@ -16,6 +16,31 @@ Ich bin so vielseitig und wandelbar wie mein Leben selbst. Ich werde nie „fert
 
 ---
 
+## Was ist mir wichtig?
+
+- **Gesehen zu werden.**  
+  Nicht nur mit dem, was ich tue – sondern mit dem, was mich ausmacht. Als Mensch.
+
+- **In Gemeinschaft zu sein.**  
+  Echte Verbindung, gegenseitige Aufmerksamkeit und Raum für Austausch sind für mich essenziell.
+
+- **Ein unterstützendes Umfeld.**  
+  Kein Leistungsdruck um jeden Preis, sondern Rückhalt. Ein Ort, an dem ich wachsen, mich entfalten und mein Potenzial ausschöpfen kann.
+
+- **Gleichgewicht im Geben und Nehmen.**  
+  Nachhaltige Zusammenarbeit entsteht, wenn Wertschätzung und Verantwortung in Balance stehen.
+
+- **Teil eines größeren Ganzen zu sein.**  
+  Ich wünsche mir ein Umfeld, in dem man gemeinsam an Visionen arbeitet und diese auch lebt – nicht nur formuliert.
+
+- **Nicht alles wissen zu müssen.**  
+  Ich möchte nicht als jemand wahrgenommen werden, der „die Weisheit mit Löffeln gefressen hat“, sondern als ein Mensch, der offen denkt, Fragen stellt und Impulse gibt.
+
+- **Raum für Vielseitigkeit.**  
+  Meine Gedanken fließen oft in verschiedene Richtungen – das ist keine Schwäche, sondern eine Quelle für Kreativität und neue Perspektiven.
+
+---
+
 ## Was macht einen guten Entwickler oder eine gute Entwicklerin aus?
 
 Ein guter Entwickler ist nicht nur jemand, der eine Sprache perfekt beherrscht oder möglichst viele Sprachen kennt – und auch der oft gefeierte Full-Stack-Entwickler ist keine Patentlösung (was bedeutet „Full Stack“ überhaupt?). Viel wichtiger sind aus meiner Sicht folgende Fähigkeiten:
