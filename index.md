@@ -1,3 +1,8 @@
+**Hinweis:**
+Dieses Portfolio ist im Entstehen begriffen – es wächst, verändert sich und bleibt bewusst unvollständig.
+Es ist ein lebendiger Prototyp meiner Gedanken, Erfahrungen und Visionen.
+Kein starres Endprodukt, sondern ein offener Prozess, der sich im Austausch weiterentwickelt.
+
 # Simon Dietz
 Interdisziplinärer Entwickler & Kreativtechniker
 
