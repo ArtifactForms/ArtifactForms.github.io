@@ -19,7 +19,7 @@ In diesem Portfolio spiegelt sich genau dieser Prozess wider. Ich lasse Vergange
 
 Hier halte ich meine Gedanken, Wertvorstellungen und Visionen zu Gesellschaft, Arbeitswelt und Wandel fest. Dieses Mindset ist bewusst offen und wandelbar – es formt sich mit jedem neuen Impuls weiter.
 
-// TODO Link
+[FAQ / Mindset](https://artifactforms.github.io/faq-mindset)
 
 ## Kreativität trifft Ausdruck: Meine Erfahrung mit Style-Writing & Jugendprojekten
 
