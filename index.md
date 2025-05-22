@@ -33,13 +33,14 @@ Ein Höhepunkt dieser Zeit war ein mehrtägiger Workshop in Zusammenarbeit mit d
 
 ![banner-1](https://github.com/user-attachments/assets/70fdba68-3177-4bb8-b19f-f5bf92840ee8)
 
-A Personal 3D Project - Explore the world of 3D geometry with this open-source Java library, built as a learning project.
+Persönliches 3D-Projekt – Open-Source-Java-Bibliothek zur Erkundung von 3D-Geometrie
 
-**Background / Intension**
+Dieses Projekt ist aus meiner Faszination für 3D-Programmierung entstanden. Die Java-Bibliothek habe ich ursprünglich 2015/2016 als persönliches Lernprojekt gestartet, mit dem Ziel, ein tieferes Verständnis für den Aufbau und die Verarbeitung von 3D-Geometrie zu entwickeln.
 
-This Java library began as a hobby project in 2015/2016. I started it to deepen my understanding of creating and manipulating 3D geometry. This built upon knowledge I gained from an earlier internship with product design students. During that time, I was introduced to the programming language Processing.
+Der Impuls dazu kam während eines Praktikums im Umfeld von Produktdesign-Studierenden, wo ich erstmals mit der kreativen Programmierumgebung Processing in Kontakt kam. Die visuelle, zugängliche Art von Processing hat mich sofort begeistert – insbesondere die Möglichkeit, Ideen schnell grafisch umzusetzen.
+Technischer Fokus
 
-Processing captivated me from the start. Designed for visual learners, Processing is a great tool to get started with programming. You can learn more at processing.org. While Processing isn't strictly necessary, the library's core functionality is independent of the Processing environment. However, Processing offers a convenient way to visualize constructed meshes through its rendering pipeline, which leverages JAVA, JAVA2D, and OPENGL.
+Die Bibliothek ist von Grund auf in Java geschrieben und unabhängig von externen Frameworks konzipiert. Sie ermöglicht das Erstellen, Transformieren und Visualisieren von 3D-Meshes auf Basis einfacher geometrischer Prinzipien. Obwohl sie nicht auf Processing angewiesen ist, lässt sich diese Umgebung hervorragend zur Visualisierung nutzen – insbesondere durch deren Unterstützung für JAVA2D und OpenGL.
 
 [MeshLib on Github](https://github.com/ArtifactForms/MeshLibCore)
 
