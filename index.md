@@ -13,6 +13,14 @@ Die Theorie U hilft mir, meine eigene Entwicklung bewusst zu reflektieren. **Was
 
 In diesem Portfolio spiegelt sich genau dieser Prozess wider. Ich lasse Vergangenes Revue passieren, entdecke neue Perspektiven und entwerfe eine Zukunft, die mich inspiriert. Es ist ein Raum zum Experimentieren, zum Ausprobieren und zum Wachsen – eine Sandbox, in der ich meine Ideen und meine Persönlichkeit sichtbar mache.
 
+## Mindset / Personal FAQ
+
+![grafik](https://github.com/user-attachments/assets/6bddcbe0-bde5-4450-9b9c-50ef54a650f5)
+
+Hier halte ich meine Gedanken, Wertvorstellungen und Visionen zu Gesellschaft, Arbeitswelt und Wandel fest. Dieses Mindset ist bewusst offen und wandelbar – es formt sich mit jedem neuen Impuls weiter.
+
+// TODO Link
+
 ## Kreativität trifft Ausdruck: Meine Erfahrung mit Style-Writing & Jugendprojekten
 
 Im Jahr 2024 hatte ich die einmalige Gelegenheit, dem Künstler **Carlos Lorente** – Gründer und Geschäftsführer der **Style Scouts** Akademie Nürnberg – zu hospitieren. Diese Erfahrung war für mich in vielerlei Hinsicht bereichernd: Sie ermöglichte es mir nicht nur, meine eigene kreative Ader wiederzuentdecken und den Alltag neu zu erproben, sondern auch positive Impulse zu erleben.
