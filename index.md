@@ -38,6 +38,7 @@ Persönliches 3D-Projekt – Open-Source-Java-Bibliothek zur Erkundung von 3D-Ge
 Dieses Projekt ist aus meiner Faszination für 3D-Programmierung entstanden. Die Java-Bibliothek habe ich ursprünglich 2015/2016 als persönliches Lernprojekt gestartet, mit dem Ziel, ein tieferes Verständnis für den Aufbau und die Verarbeitung von 3D-Geometrie zu entwickeln.
 
 Der Impuls dazu kam während eines Praktikums im Umfeld von Produktdesign-Studierenden, wo ich erstmals mit der kreativen Programmierumgebung Processing in Kontakt kam. Die visuelle, zugängliche Art von Processing hat mich sofort begeistert – insbesondere die Möglichkeit, Ideen schnell grafisch umzusetzen.
+
 Technischer Fokus
 
 Die Bibliothek ist von Grund auf in Java geschrieben und unabhängig von externen Frameworks konzipiert. Sie ermöglicht das Erstellen, Transformieren und Visualisieren von 3D-Meshes auf Basis einfacher geometrischer Prinzipien. Obwohl sie nicht auf Processing angewiesen ist, lässt sich diese Umgebung hervorragend zur Visualisierung nutzen – insbesondere durch deren Unterstützung für JAVA2D und OpenGL.
