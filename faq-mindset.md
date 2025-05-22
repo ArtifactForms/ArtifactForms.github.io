@@ -8,6 +8,14 @@ Ich bin so vielseitig und wandelbar wie mein Leben selbst. Ich werde nie „fert
 
 Hier halte ich meine Gedanken, Wertvorstellungen und Visionen zu Gesellschaft, Arbeitswelt und Wandel fest. Dieses Mindset ist bewusst offen und wandelbar – es formt sich mit jedem neuen Impuls weiter.
 
+## Warum dieses persönliche FAQ?
+
+Ich möchte Bewerbung neu denken.
+
+Anstatt den klassischen Weg zu gehen, gestalte ich meine Bewerbung im Sinne des Design Thinking und schicke Prototypen in die Welt. Statt mich auf eine reine Auflistung von Tools, Zertifikaten und Know-how zu beschränken, möchte ich mich als Person ganzheitlich zeigen – mit meinen Werten, Stärken, Fragen und Entwicklungspotenzialen.
+
+Dieses persönliche FAQ ist ein Versuch, mein Denken und Handeln transparent zu machen. Es ist kein starres Konstrukt, sondern ein offener Entwurf.
+
 ## Was macht einen guten Entwickler oder eine gute Entwicklerin aus?
 
 Ein guter Entwickler ist nicht nur jemand, der eine Sprache perfekt beherrscht oder möglichst viele Sprachen kennt – und auch der oft gefeierte Full-Stack-Entwickler ist keine Patentlösung (was bedeutet „Full Stack“ überhaupt?). Viel wichtiger sind aus meiner Sicht folgende Fähigkeiten:
@@ -54,24 +62,10 @@ Nur wenn wir früh Fehler entdecken und sie schnell beheben, können wir kontinu
 
 ---
 
-## Was weiß ich über Scrum – und habe ich Erfahrung damit?  
-- **Prinzipien:**  
-  Scrum setzt auf kleine, selbstorganisierte Teams mit klaren Rollen (Product Owner, Scrum Master, Development Team).  
+## Was weiß ich über Scrum und habe ich damit Erfahrung?
 
-- **Herausforderung in der Praxis:**  
-  Oft wird Scrum in großen Projekten eingesetzt, indem mehrere kleine Teams parallel arbeiten. Die Kunst liegt darin, diese Teams zu koordinieren und den Projekterfolg zu sichern.  
+Ich kenne Scrum und seine Prinzipien – entscheidend ist aber, wie Scrum in der Praxis umgesetzt wird. Ursprünglich für kleine, selbstorganisierte Teams gedacht, wird Scrum inzwischen oft auch in großen Projekten eingesetzt, indem man viele kleine Teams parallel arbeiten lässt. Die eigentliche Herausforderung ist die Koordination dieser Teams und die Sicherstellung des Projekterfolgs.
 
-- **Typische Fallen:**  
-  - Scrum als reines Management-Tool statt als Instrument für Team-Selbstorganisation  
-  - Fehlende Praktiken aus dem „inner circle“ (z. B. Extreme Programming, Pair Programming, TDD, Refactoring, rotierende Rollen)  
-
-> **Mein Eindruck:** Scrum kann sehr effektiv sein – vorausgesetzt, man nutzt es als Rahmenwerk für echte Teamautonomie und ergänzt es mit bewährten Engineering-Methoden.
+In vielen Organisationen kommt es derzeit zu Unzufriedenheit mit Scrum, weil es eher als Management-Tool denn als Instrument für Selbstorganisation genutzt wird. Scrum allein reicht nicht: Um effektiv zu sein, braucht es auch Praktiken aus dem „inner circle“, etwa Extreme Programming, Pair Programming, TDD, Refactoring und rotierende Rollen.
 
 ---
-
-## Was macht einen guten Test aus?  
-Die Welt der Softwaretests ist groß (Unit, Integration, Akzeptanz, Mutation Testing, KI-gestützte Ansätze …). Doch am Ende zählt nur eins:
-
-> **Vertrauen.**  
-
-Wenn ein Test grün ist und ich mich darauf verlassen kann, dass mein Code funktioniert, dann ist der Test gut. Dieses Vertrauen erlaubt mir, sicher umzustrukturieren (Refactoring) und weiterzuentwickeln. Selbst der kleinste Zweifel an der Zuverlässigkeit eines Tests macht ihn wertlos.
