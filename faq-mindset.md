@@ -33,8 +33,8 @@ Dieses persönliche FAQ ist ein Versuch, mein Denken und Handeln transparent zu 
 - **Teil eines größeren Ganzen zu sein.**  
   Ich wünsche mir ein Umfeld, in dem man gemeinsam an Visionen arbeitet und diese auch lebt – nicht nur formuliert.
 
-- **Nicht alles wissen zu müssen.**  
-  Ich möchte nicht als jemand wahrgenommen werden, der „die Weisheit mit Löffeln gefressen hat“, sondern als ein Mensch, der offen denkt, Fragen stellt und Impulse gibt.
+- **Außenwahrnehmung.**  
+  Ich möchte nicht als jemand wahrgenommen werden, der glaubt „die Weisheit mit Löffeln gefressen zu haben“, sondern als ein Mensch, der offen denkt, Fragen stellt und Impulse gibt.
 
 - **Raum für Vielseitigkeit.**  
   Meine Gedanken fließen oft in verschiedene Richtungen – das ist keine Schwäche, sondern eine Quelle für Kreativität und neue Perspektiven.
