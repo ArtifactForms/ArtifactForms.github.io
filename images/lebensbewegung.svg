@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400mm"
+   height="600mm"
+   viewBox="0 0 400 600"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="Lebensbewegung.svg"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Dot"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         sodipodi:nodetypes="sssss"
+         id="path17" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path140" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Dot-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         sodipodi:nodetypes="sssss"
+         id="path17-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Dot-7-94"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         sodipodi:nodetypes="sssss"
+         id="path17-3-97" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Dot-7-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         sodipodi:nodetypes="sssss"
+         id="path17-3-70" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Dot-7-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         sodipodi:nodetypes="sssss"
+         id="path17-3-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Dot-7-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         sodipodi:nodetypes="sssss"
+         id="path17-3-7" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g193"
+       transform="matrix(1.9047619,0,0,1.9047619,-2095.2382,-2.15458)">
+      <g
+         id="g192">
+        <text
+           xml:space="preserve"
+           style="font-size:2.9022px;line-height:1.25;font-family:'Mal de Ojo';-inkscape-font-specification:'Mal de Ojo';letter-spacing:0px;fill:#4d4d4d;stroke-width:0.167434"
+           x="1133.899"
+           y="211.862"
+           id="text1-1-43"><tspan
+             sodipodi:role="line"
+             id="tspan1-1-1"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.9022px;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';fill:#4d4d4d;stroke-width:0.167434"
+             x="1133.899"
+             y="211.862">Interdisziplinärer Entwickler &amp; </tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.9022px;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';fill:#4d4d4d;stroke-width:0.167434"
+             x="1133.899"
+             y="215.53412"
+             id="tspan140">Kreativtechniker</tspan></text>
+        <rect
+           style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:1.05922;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="rect83-4"
+           width="1.1219575"
+           height="52.807571"
+           x="1130.1387"
+           y="209.62442" />
+        <path
+           sodipodi:type="spiral"
+           style="fill:none;fill-rule:evenodd;stroke:#ffcc00;stroke-width:1.62335;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Dot);marker-end:url(#DartArrow)"
+           id="path133"
+           sodipodi:cx="266.84286"
+           sodipodi:cy="96.102463"
+           sodipodi:expansion="1"
+           sodipodi:revolution="3"
+           sodipodi:radius="91.381859"
+           sodipodi:argument="-17.278759"
+           sodipodi:t0="0"
+           d="m 266.84286,96.102463 c 0,4.581737 -6.17609,2.260466 -7.61515,-5e-6 -3.89976,-6.125734 1.71512,-13.352266 7.61516,-15.230305 10.5538,-3.359371 20.70993,5.166845 22.84546,15.230323 3.13398,14.768564 -8.63401,28.198784 -22.84548,30.460604 -18.94167,3.01465 -35.73834,-12.10253 -38.07576,-30.46064 -2.9414,-23.101809 15.5707,-43.303055 38.0758,-45.690907 27.25669,-2.892008 50.88215,19.038475 53.30606,45.690961 2.8565,31.409036 -22.50596,58.470226 -53.30612,60.921206 -35.56,2.82976 -66.06431,-25.97326 -68.53636,-60.921278 -2.80889,-39.710154 29.44045,-73.662603 68.53644,-76.151508 43.8598,-2.792175 81.26396,32.907546 83.76666,76.151598 2.77847,48.009098 -36.37459,88.867608 -83.76676,91.381808"
+           transform="matrix(0.61600917,0,0,0.61600917,1032.8535,95.131218)" />
+        <path
+           style="fill:none;stroke:#ffcc00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Dot)"
+           d="M 1235.3874,123.03769 1260.3277,98.0973"
+           id="path134" />
+        <path
+           style="fill:none;stroke:#ffcc00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Dot-7)"
+           d="m 1223.6181,137.95869 28.6386,18.16602"
+           id="path134-4"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ffcc00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Dot-7-94)"
+           d="m 1158.4135,167.91282 -24.2735,7.95755"
+           id="path134-4-92"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ffcc00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Dot-7-9)"
+           d="M 1172.5801,116.67845 1157.7172,100.8214"
+           id="path134-4-4"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ffcc00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Dot-7-4)"
+           d="m 1234.8921,192.69333 13.1475,8.75252"
+           id="path134-4-9"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ffcc00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Dot-7-6)"
+           d="m 1209.1691,108.46448 4.2552,-26.654006"
+           id="path134-4-8"
+           sodipodi:nodetypes="cc" />
+        <text
+           xml:space="preserve"
+           style="font-size:2.02149px;line-height:1.25;font-family:'Mal de Ojo';-inkscape-font-specification:'Mal de Ojo';letter-spacing:0px;stroke-width:0.0505372"
+           x="1263.4432"
+           y="96.317459"
+           id="text134"><tspan
+             sodipodi:role="line"
+             id="tspan134"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1263.4432"
+             y="96.317459">STUDIUM</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1263.4432"
+             y="98.87957"
+             id="tspan135">10|2007 - 03|2012</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1263.4432"
+             y="101.44168"
+             id="tspan136">Hochschule Coburg</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1263.4432"
+             y="104.00379"
+             id="tspan137">* Fachbereich Informatik</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1263.4432"
+             y="106.5659"
+             id="tspan138">* Abschluss: Ohne</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1263.4432"
+             y="109.12801"
+             id="tspan139">172 ECTS</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.02149px;line-height:1.25;font-family:'Mal de Ojo';-inkscape-font-specification:'Mal de Ojo';letter-spacing:0px;stroke-width:0.0505372"
+           x="1136.3696"
+           y="86.772537"
+           id="text134-1"><tspan
+             sodipodi:role="line"
+             id="tspan134-7"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1136.3696"
+             y="86.772537">FACHHOCHSCHULREIFE</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1136.3696"
+             y="89.334648"
+             id="tspan135-5">09|2002 - 07|2005</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1136.3696"
+             y="91.896759"
+             id="tspan136-2">Staatliche Fach- und Berufsoberschule Ansbach</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1136.3696"
+             y="94.45887"
+             id="tspan137-0">* Fachbereich Sozialwesen</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1136.3696"
+             y="97.020981"
+             id="tspan139-5">* Abschluss: Fachhochschulreife</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.02149px;line-height:1.25;font-family:'Mal de Ojo';-inkscape-font-specification:'Mal de Ojo';letter-spacing:0px;stroke-width:0.0505372"
+           x="1254.2257"
+           y="159.5464"
+           id="text134-5"><tspan
+             sodipodi:role="line"
+             id="tspan134-3"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1254.2257"
+             y="159.5464">MITTLERE REIFE</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1254.2257"
+             y="162.10851"
+             id="tspan135-9">- 1999</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1254.2257"
+             y="164.67062"
+             id="tspan136-0">Markgraf-Georg-Friedrich Realschule Heilsbronn</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1254.2257"
+             y="167.23273"
+             id="tspan137-9">* Fachbereich Wirtschaft</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1254.2257"
+             y="169.79485"
+             id="tspan139-7">* Abschluss: Mittlere Reife</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.02149px;line-height:1.25;font-family:'Mal de Ojo';-inkscape-font-specification:'Mal de Ojo';letter-spacing:0px;stroke-width:0.0505372"
+           x="1110.7653"
+           y="179.19571"
+           id="text134-5-7"><tspan
+             sodipodi:role="line"
+             id="tspan134-3-5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1110.7653"
+             y="179.19571">BERUFSABSCHLUSS</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1110.7653"
+             y="181.75781"
+             id="tspan135-9-8">09|1999 - 09|2002</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1110.7653"
+             y="184.31993"
+             id="tspan136-0-0">Brauerei Schlössle Offenhausen (Neu-Ulm)</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1110.7653"
+             y="186.88203"
+             id="tspan137-9-7">* Besuch der Ferdinand-von-Steinbeis-Schule Ulm</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1110.7653"
+             y="189.44415"
+             id="tspan144">* Überbetrieblich: Mälzerei Pflugbrauerei Hörvelsingen</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1110.7653"
+             y="192.00626"
+             id="tspan145">* Überbetrieblich: Labor Goldochsen Brauerei GmbH Ulm</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1110.7653"
+             y="194.56837"
+             id="tspan139-7-58">* Abschluss: Berufsabschluss als Brauer und Mälzer</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.02149px;line-height:1.25;font-family:'Mal de Ojo';-inkscape-font-specification:'Mal de Ojo';letter-spacing:0px;stroke-width:0.0505372"
+           x="1249.2261"
+           y="205.67833"
+           id="text134-5-5"><tspan
+             sodipodi:role="line"
+             id="tspan134-3-9"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1249.2261"
+             y="205.67833">SERVICEKRAFT GASTRONOMIE</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1249.2261"
+             y="208.24043"
+             id="tspan135-9-6">03|2012 - 10|2022</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1249.2261"
+             y="210.80255"
+             id="tspan139-7-4">Alte Braustube Dietz</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1249.2261"
+             y="213.36465"
+             id="tspan143">Bruckberg</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.02149px;line-height:1.25;font-family:'Mal de Ojo';-inkscape-font-specification:'Mal de Ojo';letter-spacing:0px;stroke-width:0.0505372"
+           x="1213.2651"
+           y="72.872253"
+           id="text134-5-0"><tspan
+             sodipodi:role="line"
+             id="tspan134-3-1"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1213.2651"
+             y="72.872253">FREIBERUFLICH KÜNSTLERISCHE TÄTIGKEIT</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1213.2651"
+             y="75.434364"
+             id="tspan135-9-7">2005 - 2007</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.0505372"
+             x="1213.2651"
+             y="77.996475"
+             id="tspan139-7-5">Illustration &amp; Grafikdesign</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Lucida Sans';-inkscape-font-specification:'Lucida Sans';letter-spacing:0px;fill:#ffcc00;stroke-width:0.264583"
+         x="1126.3329"
+         y="33.307724"
+         id="text1-5-2"><tspan
+           sodipodi:role="line"
+           id="tspan1-5-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lucida Sans';-inkscape-font-specification:'Lucida Sans';fill:#ffcc00;stroke-width:0.264583"
+           x="1126.3329"
+           y="33.307724">Lebensbewegung</tspan></text>
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:1.20715;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect145-9"
+         width="210.00005"
+         height="10.693379"
+         x="1100"
+         y="286.30661" />
+    </g>
+  </g>
+</svg>
