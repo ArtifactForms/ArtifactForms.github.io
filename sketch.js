@@ -2,9 +2,18 @@ let rotation = 0;
 let rotating = true;
 let pauseTime = 0;
 let paused = false;
+let boxSize = 200;
+let animate = false;
 
 function setup() {
-  createCanvas(800, 400, WEBGL)
+  createCanvas(1024, 768, WEBGL);
+}
+
+function mouseClicked() {
+  if (animate)
+	  return;
+  boxSize = 100;
+  animate = true;
 }
 
 function draw() {
@@ -30,15 +39,27 @@ function draw() {
   smooth(8);
   background(255);
   
+  
   push();
   rotateZ(radians(45));
   
   if (rotating)
     rotateY(rotation);
   
+	if (animate) {
+	  boxSize += 10;
+	  if (boxSize >= 200) {
+		animate = false;
+		boxSize = 200;
+		setTimeout(() => {
+		window.location.href = "portfolio.html";
+	}, 500);
+	  }
+	}
+  
   noFill();
   stroke(0);
   strokeWeight(1);
-  box(200);
+  box(boxSize);
   pop();
 }
