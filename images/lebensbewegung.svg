@@ -3,13 +3,15 @@
 
 <svg
    width="400mm"
-   height="600mm"
-   viewBox="0 0 400 600"
+   height="460mm"
+   viewBox="0 0 400 460"
    version="1.1"
    id="svg1"
    inkscape:export-filename="Lebensbewegung.svg"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
+   sodipodi:docname="lebensbewegung.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +25,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm" />
+     inkscape:document-units="mm"
+     inkscape:zoom="0.26847224"
+     inkscape:cx="551.26742"
+     inkscape:cy="981.4795"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs1">
     <marker
@@ -171,10 +182,11 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g193"
-       transform="matrix(1.9047619,0,0,1.9047619,-2095.2382,-2.15458)">
+       id="g1"
+       transform="matrix(0.96218089,0,0,0.96218089,4.6480746,-31.454521)">
       <g
-         id="g192">
+         id="g192"
+         transform="matrix(1.9047619,0,0,1.9047619,-2095.2382,-2.15458)">
         <text
            xml:space="preserve"
            style="font-size:2.9022px;line-height:1.25;font-family:'Mal de Ojo';-inkscape-font-specification:'Mal de Ojo';letter-spacing:0px;fill:#4d4d4d;stroke-width:0.167434"
@@ -429,22 +441,15 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Lucida Sans';-inkscape-font-specification:'Lucida Sans';letter-spacing:0px;fill:#ffcc00;stroke-width:0.264583"
-         x="1126.3329"
-         y="33.307724"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.1587px;line-height:1.25;font-family:'Lucida Sans';-inkscape-font-specification:'Lucida Sans';letter-spacing:0px;fill:#ffcc00;stroke-width:0.503968"
+         x="50.157768"
+         y="61.288704"
          id="text1-5-2"><tspan
            sodipodi:role="line"
            id="tspan1-5-4"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lucida Sans';-inkscape-font-specification:'Lucida Sans';fill:#ffcc00;stroke-width:0.264583"
-           x="1126.3329"
-           y="33.307724">Lebensbewegung</tspan></text>
-      <rect
-         style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:1.20715;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="rect145-9"
-         width="210.00005"
-         height="10.693379"
-         x="1100"
-         y="286.30661" />
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lucida Sans';-inkscape-font-specification:'Lucida Sans';fill:#ffcc00;stroke-width:0.503968"
+           x="50.157768"
+           y="61.288704">Lebensbewegung</tspan></text>
     </g>
   </g>
 </svg>
