@@ -1,3 +1,4 @@
+let canvas;
 let rotation = 0;
 let rotating = true;
 let pauseTime = 0;
@@ -6,60 +7,61 @@ let boxSize = 200;
 let animate = false;
 
 function setup() {
-  createCanvas(1024, 768, WEBGL);
+  const container = document.getElementById("p5-container");
+  const w = container.clientWidth;
+  const h = container.clientHeight;
+
+  canvas = createCanvas(w, h, WEBGL, { antialias: true });
+  canvas.parent("p5-container");
+
+  background(128);
 }
 
 function mouseClicked() {
-  if (animate)
-	  return;
-  boxSize = 100;
+  if (animate) return;
+
+  boxSize = 50;
   animate = true;
 }
 
 function draw() {
-  if (!paused)
+  if (!paused) {
     rotation += radians(2);
-  
+  }
+
   if (rotation >= PI && !paused) {
     rotation = PI;
     rotating = false;
     paused = true;
-    pauseTime = 60 * 3;
+    pauseTime = 60 * 2;
   }
-  
+
   if (paused) {
     if (pauseTime <= 0) {
-        rotation = 0;
-        paused = false;
-        rotating = true;
+      rotation = 0;
+      paused = false;
+      rotating = true;
     }
     pauseTime -= 1;
   }
-  
-  smooth(8);
-  background(255);
-  
-  
-  push();
+
   rotateZ(radians(45));
-  
-  if (rotating)
+
+  if (rotating) {
     rotateY(rotation);
-  
-	if (animate) {
-	  boxSize += 10;
-	  if (boxSize >= 200) {
-		animate = false;
-		boxSize = 200;
-		setTimeout(() => {
-		window.location.href = "portfolio.html";
-	}, 500);
-	  }
-	}
-  
+  }
+
+  if (animate) {
+    boxSize += 10;
+    if (boxSize >= 200) {
+      animate = false;
+      boxSize = 200;
+    }
+  }
+
+  background(255);
   noFill();
-  stroke(0);
-  strokeWeight(1);
+  stroke(255, 204, 0);
+  strokeWeight(2);
   box(boxSize);
-  pop();
 }
