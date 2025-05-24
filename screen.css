@@ -71,3 +71,20 @@ a:hover {
 #p5-container canvas {
   display: block;
 }
+
+details summary {
+  cursor: pointer;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+details[open] summary {
+  margin-bottom: 0.75em;
+}
+
+.more-note {
+  font-weight: normal;
+  color: #ffcc00;
+  margin-left: 0.5em;
+}
