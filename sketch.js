@@ -13,6 +13,8 @@ function setup() {
 
   canvas = createCanvas(w, h, WEBGL, { antialias: true });
   canvas.parent("p5-container");
+
+  background(255);
 }
 
 function mouseClicked() {
