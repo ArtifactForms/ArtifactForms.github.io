@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simon Dietz</title>
+    <link href="../screen.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div id="text-block">
+        <div id="title">Simon Dietz -</div>
+        <div id="subtitle">Interdisziplinärer Entwickler &amp; Kreativtechniker</div>
+      </div>
+      <section class="text-section" id="meshmodifikatoren">
+        <h2>Mesh Modifikatoren  
+          <a href="../index.html#portfolio" target="_self">[Zurück zum Portfolio...]</a>
+        </h2>
+        <p>
+          Im Laufe der Jahre habe ich eine Vielzahl an Mesh-Modifikatoren implementiert. Diese ermöglichen es, Grundformen durch gezielte Transformationen zu verändern und zu komplexen, oft unerwarteten Strukturen weiterzuentwickeln.
+        </p>
+        <p>
+          Durch die Kombination verschiedener Modifikatoren entsteht eine nahezu unendliche Vielfalt an Formen. Die spielerische Aneinanderreihung und Variation der einzelnen Operationen erlaubt es, neue Formwelten zu erkunden, ohne dabei händisch modellieren zu müssen.
+          Dieser experimentelle Ansatz macht es möglich, kreative und algorithmisch generierte Geometrien zu erschaffen.
+        </p>
+        <h3>Modifikator-Sequenz</h3>
+        <p>Das folgende Beispiel zeigt einen möglichen Ablauf der Formgenerierung anhand einer Sequenz von Modifikatoren:</p>
+        <ol>
+          <li><strong>Icosahedron</strong> als Ausgangsform</li>
+          <li><strong>Bevel Vertices</strong> (Abrunden der Ecken)</li>
+          <li><strong>Tessellierung der Flächen</strong> durch Planar Vertex Center</li>
+          <li><strong>Weitere Tessellierung</strong> mittels MidEdge Center</li>
+          <li><strong>Spherify</strong> zur Annäherung an eine Kugelform</li>
+          <li><strong>Holes Modifier</strong> für Durchbrüche in der Geometrie</li>
+          <li><strong>Solidify</strong> zur Verdickung der Struktur</li>
+        </ol>
+        <img src="https://github.com/user-attachments/assets/429dcf6c-209f-4d5b-abb9-053cf9475600" alt="Modifikator Beispiel 1" />
+        <img src="https://github.com/user-attachments/assets/98942d7f-9837-4d84-9830-409ba21059d1" alt="Modifikator Beispiel 2" />
+      </section>
+    </main>
+  </body>
+</html>
