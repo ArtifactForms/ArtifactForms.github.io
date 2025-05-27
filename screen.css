@@ -152,3 +152,11 @@ details[open] summary {
   font-size: 0.95rem;
   color: #444;
 }
+
+#personal-strengths {
+  color: white;
+  background: #ffcc00;
+  width: 100%;
+  display: flex;
+  font-size: 18px;
+}
