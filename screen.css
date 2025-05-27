@@ -160,3 +160,10 @@ details[open] summary {
   display: flex;
   font-size: 18px;
 }
+
+.image-caption {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 0.5em;
+  color: #555;
+}
