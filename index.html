@@ -27,6 +27,76 @@
         <img src="images/einladung.svg" alt="Einladung Illustration" id="einladung-svg" />
       </section>
 	  
+<section class="text-section">
+  <pre id="output"></pre>
+</section>
+
+<script>
+  let started = false;
+
+  const output = document.getElementById("output");
+
+  const lines = [
+    "> co-creation initialized",
+    "> empathy_protocol activated",
+    "> transmitting values...",
+    "> parsing potential...",
+    "> prototyping in progress ▒▒▒▒▒▒▒▒▒▒▒▒▒",
+    "> awaiting collaboration signal"
+  ];
+
+  let lineIndex = 0;
+  let charIndex = 0;
+  let currentSpan = null;
+
+  function typeLine() {
+    if (lineIndex >= lines.length) return;
+
+    const currentLine = lines[lineIndex];
+
+    if (charIndex === 0) {
+      currentSpan = document.createElement("span");
+      currentSpan.classList.add("line", "typing");
+      output.appendChild(currentSpan);
+      output.appendChild(document.createTextNode("\n"));
+    }
+
+    currentSpan.textContent = currentLine.slice(0, charIndex + 1);
+    charIndex++;
+
+    if (charIndex < currentLine.length) {
+      setTimeout(typeLine, 40);
+    } else {
+      currentSpan.classList.remove("typing");
+
+      if (lineIndex === lines.length - 1) {
+        currentSpan.classList.add("last");
+      }
+
+      charIndex = 0;
+      lineIndex++;
+      setTimeout(typeLine, 400);
+    }
+  }
+
+  function startTypingIfVisible(entries) {
+    if (entries[0].isIntersecting && !started) {
+      started = true;
+      typeLine();
+      observer.disconnect(); // Stop observing after starting
+    }
+  }
+
+  const observer = new IntersectionObserver(startTypingIfVisible, {
+    threshold: 0.3 // Start at 30% visibility
+  });
+
+  observer.observe(output);
+</script>
+	  
+	  <section id="svg-flow" class="svg-section">
+        <img src="images/flow.svg" alt="Flow Illustration" id="flow-svg" />
+      </section>
 	  
 	  <section id="svg-hlloworld" class="svg-section">
         <img src="images/helloworld.svg" alt="Hello World Illustration" id="helloworld-svg" />
