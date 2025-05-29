@@ -124,6 +124,21 @@ details[open] summary {
   margin: 0 auto;
 }
 
+/*
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 2rem;
+  margin-top: 3rem;
+}
+*/
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .portfolio-item {
   background: white;
   border-radius: 8px;
@@ -162,59 +177,52 @@ details[open] summary {
 }
 
 code {
-	font-size: 18px;
-	display: block;
-	display: block;
+  font-size: 18px;
+  display: block;
 }
 
 .background-container {
-	background: #ffcc00;
-	width: 715px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 20px;
-	padding-left: 65px;
+  background: #ffcc00;
+  width: 715px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 65px;
 }
 
 #data-headline {
-	font-size: 30px;
+  font-size: 30px;
 }
 
-// Output
+/* Output Animation */
 
-    .line::after {
-      content: "";
-    }
+.line::after {
+  content: "";
+}
 
-    .line.typing::after {
-      content: "_";
-      animation: blink 1s step-end infinite;
-    }
+.line.typing::after,
+.line.last::after {
+  content: "_";
+  animation: blink 1s step-end infinite;
+}
 
-    .line.last::after {
-      content: "_";
-      animation: blink 1s step-end infinite;
-    }
-	
-	.line.last::after {
+.line.last::after {
   content: "|";
   animation: blink 1s steps(1) infinite;
 }
 
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
 
-
-   @keyframes blink {
-      50% { opacity: 0; }
-    }
-	
-	#output {
-	 line-height: 1.2;
-	 font-size: 30px;
-	 width: 726px;
-	 height: 346px;
-	 border: 2px solid #ffcc00;
-	 padding: 30px;
-	 padding-left:40px;
-    }
-
-
+#output {
+  line-height: 1.2;
+  font-size: 30px;
+  width: 726px;
+  height: 346px;
+  border: 2px solid #ffcc00;
+  padding: 30px;
+  padding-left: 40px;
+}
