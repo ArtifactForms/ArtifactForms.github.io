@@ -179,3 +179,42 @@ code {
 #data-headline {
 	font-size: 30px;
 }
+
+// Output
+
+    .line::after {
+      content: "";
+    }
+
+    .line.typing::after {
+      content: "_";
+      animation: blink 1s step-end infinite;
+    }
+
+    .line.last::after {
+      content: "_";
+      animation: blink 1s step-end infinite;
+    }
+	
+	.line.last::after {
+  content: "|";
+  animation: blink 1s steps(1) infinite;
+}
+
+
+
+   @keyframes blink {
+      50% { opacity: 0; }
+    }
+	
+	#output {
+	 line-height: 1.2;
+	 font-size: 30px;
+	 width: 726px;
+	 height: 346px;
+	 border: 2px solid #ffcc00;
+	 padding: 30px;
+	 padding-left:40px;
+    }
+
+
