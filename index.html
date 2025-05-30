@@ -13,87 +13,7 @@
       </div>
 
       <div id="p5-container"></div>
-	  
-	  
-	        <section id="svg-mission" class="svg-section">
-        <img src="images/mission.svg" alt="Mission Illustration" id="mission-svg" />
-      </section>
-
-      <section id="svg-about" class="svg-section">
-        <img src="images/brain.svg" alt="Brain Illustration" id="brain-svg" />
-      </section>
-	  
-	  <section id="svg-einladung" class="svg-section">
-        <img src="images/einladung.svg" alt="Einladung Illustration" id="einladung-svg" />
-      </section>
-	  
-<section class="text-section">
-  <pre id="output"></pre>
-</section>
-
-<script>
-  let started = false;
-
-  const output = document.getElementById("output");
-
-  const lines = [
-    "> co-creation initialized",
-    "> empathy_protocol activated",
-    "> transmitting values...",
-    "> parsing potential...",
-    "> prototyping in progress ▒▒▒▒▒▒▒▒▒",
-    "> awaiting collaboration signal"
-  ];
-
-  let lineIndex = 0;
-  let charIndex = 0;
-  let currentSpan = null;
-
-  function typeLine() {
-    if (lineIndex >= lines.length) return;
-
-    const currentLine = lines[lineIndex];
-
-    if (charIndex === 0) {
-      currentSpan = document.createElement("span");
-      currentSpan.classList.add("line", "typing");
-      output.appendChild(currentSpan);
-      output.appendChild(document.createTextNode("\n"));
-    }
-
-    currentSpan.textContent = currentLine.slice(0, charIndex + 1);
-    charIndex++;
-
-    if (charIndex < currentLine.length) {
-      setTimeout(typeLine, 40);
-    } else {
-      currentSpan.classList.remove("typing");
-
-      if (lineIndex === lines.length - 1) {
-        currentSpan.classList.add("last");
-      }
-
-      charIndex = 0;
-      lineIndex++;
-      setTimeout(typeLine, 400);
-    }
-  }
-
-  function startTypingIfVisible(entries) {
-    if (entries[0].isIntersecting && !started) {
-      started = true;
-      typeLine();
-      observer.disconnect(); // Stop observing after starting
-    }
-  }
-
-  const observer = new IntersectionObserver(startTypingIfVisible, {
-    threshold: 0.3 // Start at 30% visibility
-  });
-
-  observer.observe(output);
-</script>
-	  
+	    
 	  <section id="svg-flow" class="svg-section">
         <img src="images/flow.svg" alt="Flow Illustration" id="flow-svg" />
       </section>
@@ -119,42 +39,6 @@
   </code></pre>
 </div>
  </section>
- 
-       <section id="svg-hero" class="svg-section">
-        <img src="images/hero.svg" alt="Hero Illustration" id="hero-svg" />
-      </section>
- 
- <section class="text-section">
-  <h2 id="data-headline">LET'S TALK APDC*:</h2>
-  <div class="background-container">
-  <pre><code>
-  > SUPERPOWER.DETECTED  
-  > NAME: HYPERFOCUS  
-  > SOURCE: NEURODIVERSITY
-  > MODE: ACTIVE 
-  >
-  > Nebenwirkungen:  
-  > + Stille  
-  > + Kaffee  
-  > + Ideenexplosion
-  > STATUS: Bereit für den nächsten Deep Dive.
-  </code></pre>
-</div>
-  <p>* REFERENCING: 1934 Allied Publications (später: DC Comics)</p>
- </section>
-
-
-      <section id="lebensbewegung" class="text-section">
-        <p>
-          Ich begreife meinen Weg nicht als geradlinigen Aufstieg oder Abfolge, sondern als Bewegung: eine lebendige, spiralförmige Entwicklung. Jede Station, jeder Umweg, jede Unterbrechung ist Teil davon – und Quelle neuer Perspektiven.
-        </p>
-        <p><strong>Hier zeige ich nicht meinen Lebenslauf, sondern meine Lebensbewegung.</strong></p>
-      </section>
-
-      <section id="svg-lebensbewegung" class="svg-section">
-        <img src="images/lebensbewegung.svg" alt="Lebensbewegung Illustration" id="lebensbewegung-svg" />
-      </section>
-	  
 	      <section class="text-section">
         <h2>Soziale & transversale Kompetenzen</h2>
 
