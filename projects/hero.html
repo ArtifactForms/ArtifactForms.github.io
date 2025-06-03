@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simon Dietz</title>
+  <link href="../styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <header>  
+    <div class="logo">Simon Dietz</div>
+    <nav id="nav">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#projects">Projekte</a>
+      <a href="../index.html#about">Über mich</a>
+      <a href="../index.html#contact">Kontakt</a>
+    </nav>
+    <div class="social-icons">
+      <a href="https://github.com/ArtifactForms/" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/simon-dietz-940821359/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <div class="hamburger" id="hamburger" aria-label="Menü öffnen" role="button" tabindex="0">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+    <main>
+      <article class="project-detail">
+
+        <section>
+          <h2>HeroQuest Fan Art – Eine Hommage an klassische Fantasy-Illustrationen</h2>
+                 <p>
+          Anfang der 90er Jahre – es muss etwa 1992 gewesen sein – wurde ich durch einen Freund auf das Spiel <strong>HeroQuest</strong> aufmerksam.
+          Schon damals faszinierte mich die Welt dieses Klassikers, insbesondere die Old-School-Fantasy-Illustrationen der Spielkarten.
+          Die düsteren, detailreichen Zeichnungen weckten meine Begeisterung für visuelles Storytelling und die Ästhetik klassischer Fantasy-Kunst.
+        </p>
+        <p>
+          Viele Jahre später, vermutlich Anfang der 2010er Jahre (2014), begann ich damit, eigene Kartenillustrationen anzufertigen – in einer Zeit,
+          in der künstliche Intelligenz noch keine Rolle in der kreativen Gestaltung spielte. Jedes Motiv entstand in Handarbeit,
+          inspiriert von den ikonischen Werken, die mich einst in meiner Kindheit in ihren Bann zogen.
+        </p>
+        </section>
+		
+        <section>
+          <div class="image-gallery">
+            <img src="../assets/images/hero-1.png" alt="Hero Karte 1" />
+			<img src="../assets/images/hero-2.png" alt="Hero Karte 2" />
+		    <img src="../assets/images/hero-3.png" alt="Hero Karte 3" />
+			<img src="../assets/images/hero-4.png" alt="Hero Karte 4" />
+			<img src="../assets/images/hero-5.png" alt="Hero Karte 5" />
+			<img src="../assets/images/hero-6.png" alt="Hero Karte 6" />
+			<img src="../assets/images/hero-7.png" alt="Hero Karte 7" />
+			<img src="../assets/images/hero-8.png" alt="Hero Karte 8" />
+			<img src="../assets/images/hero-9.png" alt="Hero Karte 9" />
+			<img src="../assets/images/hero-10.png" alt="Hero Karte 10" />
+          </div>
+        </section>
+
+        <p>
+          <a href="../index.html#projects" class="back-link">← Zur Projektübersicht</a>
+        </p>
+
+      </article>
+    </main>
+
+    <footer>
+      &copy; 2025 Simon Dietz
+    </footer>
+
+    <script>
+      // Hamburger Menü Funktionalität
+      const hamburger = document.getElementById('hamburger');
+      const nav = document.getElementById('nav');
+
+      function toggleMenu() {
+        nav.classList.toggle('open');
+      }
+
+      hamburger.addEventListener('click', toggleMenu);
+      hamburger.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggleMenu();
+        }
+      });
+    </script>
+    
+  </body>
+</html>
