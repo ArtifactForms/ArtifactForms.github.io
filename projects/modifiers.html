@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simon Dietz</title>
+  <link href="../styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <header>  
+    <div class="logo">Simon Dietz</div>
+    <nav id="nav">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#projects">Projekte</a>
+      <a href="../index.html#about">Über mich</a>
+      <a href="../index.html#contact">Kontakt</a>
+    </nav>
+    <div class="social-icons">
+      <a href="https://github.com/ArtifactForms/" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/simon-dietz-940821359/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <div class="hamburger" id="hamburger" aria-label="Menü öffnen" role="button" tabindex="0">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+    <main>
+      <article class="project-detail">
+
+        <section>
+          <h2>Mesh Modifiers</h2>
+          <p>
+            Im Laufe der Jahre habe ich eine Vielzahl an Mesh-Modifikatoren implementiert. Diese ermöglichen es, Grundformen durch gezielte Transformationen zu verändern und zu komplexen, oft unerwarteten Strukturen weiterzuentwickeln.
+          </p>
+          <p>
+            Durch die Kombination verschiedener Modifikatoren entsteht eine nahezu unendliche Vielfalt an Formen. Die spielerische Aneinanderreihung und Variation der einzelnen Operationen erlaubt es, neue Formwelten zu erkunden, ohne dabei händisch modellieren zu müssen. Dieser experimentelle Ansatz macht es möglich, kreative und algorithmisch generierte Geometrien zu erschaffen.
+          </p>
+          <p>
+            <a href="https://github.com/ArtifactForms/MeshLibCore/tree/master/src/main/java/mesh/modifier" target="_blank" class="back-link">
+              Code auf GitHub
+            </a>
+          </p>
+        </section>
+
+        <section>
+          <h2>Modifikator-Sequenz</h2>
+          <p>
+            Das folgende Beispiel zeigt einen möglichen Ablauf der Formgenerierung anhand einer Sequenz von Modifikatoren:
+          </p>
+          <ol>
+            <li>Icosahedron als Ausgangsform</li>
+            <li>Bevel Vertices (Abrunden der Ecken)</li>
+            <li>Tessellierung der Flächen durch Planar Vertex Center</li>
+            <li>Weitere Tessellierung mittels MidEdge Center</li>
+            <li>Spherify zur Annäherung an eine Kugelform</li>
+            <li>Holes Modifier für Durchbrüche in der Geometrie</li>
+            <li>Solidify zur Verdickung der Struktur</li>
+          </ol>
+        </section>
+
+        <section>
+          <div class="image-gallery">
+            <img src="../assets/images/mod-sequence-1.png" alt="Modifikator Beispiel 1" />
+            <img src="../assets/images/mod-sequence-2.png" alt="Modifikator Beispiel 2" />
+            <img src="../assets/images/mod-sequence-3.png" alt="Modifikator Beispiel 3" />
+            <img src="../assets/images/mod-sequence-4.png" alt="Modifikator Beispiel 4" />
+            <img src="../assets/images/mod-sequence-5.png" alt="Modifikator Beispiel 5" />
+            <img src="../assets/images/mod-sequence-6.png" alt="Modifikator Beispiel 6" />
+            <img src="../assets/images/mod-sequence-6.png" alt="Modifikator Beispiel 7" />
+          </div>
+        </section>
+
+        <p>
+          <a href="../index.html#projects" class="back-link">← Zur Projektübersicht</a>
+        </p>
+
+      </article>
+    </main>
+
+    <footer>
+      &copy; 2025 Simon Dietz
+    </footer>
+
+    <script>
+      // Hamburger Menü Funktionalität
+      const hamburger = document.getElementById('hamburger');
+      const nav = document.getElementById('nav');
+
+      function toggleMenu() {
+        nav.classList.toggle('open');
+      }
+
+      hamburger.addEventListener('click', toggleMenu);
+      hamburger.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggleMenu();
+        }
+      });
+    </script>
+    
+  </body>
+</html>
