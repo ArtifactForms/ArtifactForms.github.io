@@ -299,3 +299,21 @@ footer {
   user-select: none;
   margin-top: 3rem;
 }
+
+/* P5 Canvas Container mit fixer Größe, zentriert */
+#p5-container {
+  width: 300;
+  height: 300px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent; /* oder eine Farbe, falls gewünscht */
+}
+
+/* P5 Canvas Styling */
+canvas {
+  display: block;
+  width: 300px !important;
+  height: 300px !important;
+}
