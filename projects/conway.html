@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simon Dietz</title>
+    <link href="../styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Simon Dietz</div>
+
+      <nav id="nav">
+        <a href="../index.html#home">Home</a>
+        <a href="../index.html#projects">Projekte</a>
+        <a href="../index.html#about">Über mich</a>
+        <a href="../index.html#contact">Kontakt</a>
+      </nav>
+
+      <div class="social-icons">
+        <a
+          href="https://github.com/ArtifactForms/"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/simon-dietz-940821359/"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+
+      <div
+        class="hamburger"
+        id="hamburger"
+        aria-label="Menü öffnen"
+        role="button"
+        tabindex="0"
+      >
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </header>
+
+    <main>
+      <article class="project-detail">
+        <section>
+          <h2>
+            Conway Explorer – Eine spielerische Reise durch geometrische
+            Transformationen
+          </h2>
+        </section>
+		
+		  <section>
+          <p>
+            Der <strong>Conway Explorer</strong> nimmt eine
+            zufällige Reihenfolge der Grundoperationen <strong>Dual (D), Amo
+            (A) und Kis (K)</strong> und wendet sie auf eine gewählte
+            Ausgangsform – etwa einen simplen Würfel – an. Durch diese
+            zufallsgesteuerte Transformation entstehen immer wieder neue, oft
+            überraschende Geometrien.
+          </p>
+          <p>
+            Diese explorative Herangehensweise erlaubt es, Formwelten zu
+            erkunden, ohne jede Modifikation manuell planen zu müssen. Der
+            <strong>Conway Explorer</strong> ist somit nicht nur ein Werkzeug zur
+            Geometrie-Generierung, sondern auch eine Inspirationsquelle für
+            experimentelles Design und algorithmisch erzeugte Strukturen.
+          </p>
+        </section>
+		
+
+        <section>
+          <div class="article-image">
+            <img src="../assets/images/conway-0.png" alt="Conway Beispiel 0" />
+          </div>
+        </section>
+
+		<section>
+          <p>
+            Durch die Abbildung der prozentualen Anteile von Kis, Ambo und Dual
+            – also wie häufig sie in der zufälligen Reihenfolge vorkommen – auf
+            die RGB-Farbkomponenten kann ein zusätzlicher visueller Faktor
+            integriert werden. So wird die strukturelle Zusammensetzung einer
+            Form nicht nur geometrisch, sondern auch farblich erfahrbar gemacht.
+          </p>
+		  </section>
+		
+		 <section>
+          <div class="image-gallery">
+            <img src="../assets/images/conway-1.png" alt="Conway Beispiel 1" />
+            <img src="../assets/images/conway-2.png" alt="Conway Beispiel 2" />
+			<img src="../assets/images/conway-3.png" alt="Conway Beispiel 3" />
+			<img src="../assets/images/conway-4.png" alt="Conway Beispiel 4" />
+		    <img src="../assets/images/conway-5.png" alt="Conway Beispiel 5" />
+		    <img src="../assets/images/conway-6.png" alt="Conway Beispiel 6" />
+			<img src="../assets/images/conway-7.png" alt="Conway Beispiel 7" />
+			<img src="../assets/images/conway-8.png" alt="Conway Beispiel 8" />
+			<img src="../assets/images/conway-9.png" alt="Conway Beispiel 9" />
+          </div>
+        </section>
+		
+		        <p>
+          <a href="../index.html#projects" class="back-link">← Zur Projektübersicht</a>
+        </p>
+		
+      </article>
+    </main>
+
+    <footer>&copy; 2025 Simon Dietz</footer>
+
+    <script>
+      // Hamburger Menü Funktionalität
+      const hamburger = document.getElementById("hamburger");
+      const nav = document.getElementById("nav");
+
+      function toggleMenu() {
+        nav.classList.toggle("open");
+      }
+
+      hamburger.addEventListener("click", toggleMenu);
+      hamburger.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          toggleMenu();
+        }
+      });
+    </script>
+  </body>
+</html>
