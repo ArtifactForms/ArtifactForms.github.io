@@ -1,0 +1,301 @@
+/* ===========================
+   Reset & Grundlegende Regeln
+   =========================== */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Lucida Console, Lucida Sans Typewriter, Monaco, "Bitstream Vera Sans Mono", monospace;
+  background-color: #ffffff;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+/* Hintergrund-Canvas (z. B. Starfield) */
+#starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  display: block;
+}
+
+/* =========
+   Header
+   ========= */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 1.0);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Erlaubt Umbruch auf schmalen Bildschirmen */
+  z-index: 10;
+  color: #ffffff;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  gap: 2rem;
+  margin-left: auto; /* Menü ganz nach rechts schieben */
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #1e90ff;
+}
+
+/* Social-Media-Icons */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: 1.1rem; /* Direkt rechts vom Menü */
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #1e90ff;
+}
+
+/* Hamburger-Icon (Mobil) */
+.hamburger {
+  display: none; /* Aktivierung über Media Query */
+  flex-direction: column;
+  justify-content: space-around;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 1rem;
+}
+
+.hamburger div {
+  width: 100%;
+  height: 3px;
+  background: #ffffff;
+  border-radius: 2px;
+  transition: background 0.3s;
+}
+
+/* =========================
+   Mobile Menu (≤ 768px)
+   ========================= */
+@media (max-width: 768px) {
+  header {
+    padding: 1rem; /* Etwas kompakter auf Mobil */
+  }
+
+  /* Logo bleibt links, Navigation und Icons wandern nach unten */
+  nav {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    width: 200px;
+    padding: 1rem 2rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    height: calc(100vh - 60px);
+    z-index: 9;
+  }
+
+  nav.open {
+    transform: translateX(0);
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  /* Social-Icons unterhalb von nav, aber sichtbar */
+  .social-icons {
+    order: 1;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+    padding-left: 0;
+    gap: 0.75rem;
+    margin-left: 0; /* Entfernt Abstand links auf Mobil */
+  }
+
+  .social-icons a {
+    font-size: 1.1rem; /* Etwas kleiner auf Mobil */
+  }
+}
+
+/* =========================
+   Main Content
+   ========================= */
+main {
+  padding: 80px 2rem 2rem; /* Oben 80px wegen fixiertem Header */
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+h2 {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+/* =========================
+   Portfolio-Grid
+   ========================= */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* =========
+   Cards
+   ========= */
+.card {
+  font-family: Arial, sans-serif;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(144, 144, 144, 0.2);
+  backdrop-filter: blur(5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(144, 144, 144, 0.5);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.card-text {
+  padding: 1rem;
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-family: Lucida Console, Lucida Sans Typewriter, Monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+.card p {
+  font-size: 0.95rem;
+  line-height: 1.3;
+  color: #333333;
+}
+
+/* =========================
+   Projekt-Detailseite
+   ========================= */
+.project-detail {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Bilder innerhalb von .article-image */
+.article-image img {
+  display: block;
+  margin: 1rem auto; /* zentriert horizontal, fügt vertikalen Abstand hinzu */
+  max-width: 100%;    /* passt sich der Breite des Eltern-Containers (project-detail) an */
+  height: auto;       /* behält das Seitenverhältnis bei */
+}
+
+/* =========================
+   Bilder-Galerie (Responsive Grid)
+   ========================= */
+.image-gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr; /* Mobil: 1 Bild pro Zeile */
+}
+
+.image-gallery img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+/* Tablet (≥ 600px): 2 Spalten */
+@media (min-width: 600px) {
+  .image-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop (≥ 900px): 3 Spalten */
+@media (min-width: 900px) {
+  .image-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* =========================
+   Zurück-Link (Projektübersicht)
+   ========================= */
+.back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #1e90ff;
+}
+
+/* =========================
+   Footer
+   ========================= */
+footer {
+  text-align: center;
+  padding: 1rem 2rem;
+  color: #666666;
+  font-size: 0.9rem;
+  user-select: none;
+  margin-top: 3rem;
+}
