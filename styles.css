@@ -11,6 +11,7 @@ body {
   background-color: #ffffff;
   color: #000000;
   overflow-x: hidden;
+  line-height: 1.6;
 }
 
 header {
@@ -149,6 +150,12 @@ h1 {
 }
 
 h2 {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  font-size: 1rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
 }

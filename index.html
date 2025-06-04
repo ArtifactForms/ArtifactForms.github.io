@@ -1,216 +1,131 @@
-	<!DOCTYPE html>
-	<html lang="de">
-	<head>
-	  <meta charset="UTF-8" />
-	  <meta name="viewport" content="width=device-width, initial-scale=1" />
-	  <title>Simon Dietz</title>
-	  <link href="styles.css" rel="stylesheet" />
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simon Dietz - Home</title>
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
 
-	  <header>  
-		<div class="logo">Simon Dietz</div>
-		<nav id="nav">
-		  <a href="#home">Home</a>
-		  <a href="#projects">Projekte</a>
-		  <a href="#about">Über mich</a>
-		  <a href="#contact">Kontakt</a>
-		</nav>
-		<div class="social-icons">
-		  <a href="https://github.com/ArtifactForms/" target="_blank" aria-label="GitHub">
-			<i class="fab fa-github"></i>
-		  </a>
-		  <a href="https://www.linkedin.com/in/simon-dietz-940821359/" target="_blank" aria-label="LinkedIn">
-			<i class="fab fa-linkedin"></i>
-		  </a>
-		</div>
-		<div class="hamburger" id="hamburger" aria-label="Menü öffnen" role="button" tabindex="0">
-		  <div></div>
-		  <div></div>
-		  <div></div>
-		</div>
-	  </header>
+  <header>  
+    <div class="logo">Simon Dietz</div>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#projects">Projekte</a>
+      <a href="#about">Über mich</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="social-icons">
+      <a href="https://github.com/ArtifactForms/" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/simon-dietz-940821359/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <div class="hamburger" id="hamburger" aria-label="Menü öffnen" role="button" tabindex="0">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
 
-	  <main>
-	  
-	  <!--
-	  
-	 <section>
-	<h2>Persönliches 3D-Projekt – Open-Source-Java-Bibliothek zur Erkundung von 3D-Geometrie</h2>
+  <main>
+  
+    <h2 id="home">Projekte und Prototypen</h2>
+    <div class="portfolio-grid" id="projects">
 
-	<p>
-	Dieses Projekt ist aus meiner Faszination für 3D-Programmierung entstanden. Die Java-Bibliothek habe ich ursprünglich 2015/2016 als persönliches Lernprojekt gestartet, mit dem Ziel, ein tieferes Verständnis für den Aufbau und die Verarbeitung von 3D-Geometrie zu entwickeln.
-	</p>
+      <div class="card">
+        <a href="projects/meshlib.html">
+          <img src="./assets/images/project-11.png" alt="project-11" />
+        </a>
+        <div class="card-text">
+          <h2>Artifact Forms - MeshLib</h2>
+          <p>Persönliches 3D-Projekt – Open-Source-Java-Bibliothek zur Erkundung von 3D-Geometrie.</p>
+        </div>
+      </div>
 
-	<p>
-	Der Impuls dazu kam während eines Praktikums im Umfeld von Produktdesign-Studierenden, wo ich erstmals mit der kreativen Programmierumgebung Processing in Kontakt kam. Die visuelle, zugängliche Art von Processing hat mich sofort begeistert – insbesondere die Möglichkeit, Ideen schnell grafisch umzusetzen.
-	</p>
+      <div class="card">
+        <a href="projects/conway.html">
+          <img src="./assets/images/project-6.png" alt="project-6" />
+        </a>
+        <div class="card-text">
+          <h2>Spielerische Erkundung komplexer Polyeder</h2>
+          <p>Entdecke, wie einfache geometrische Transformationen faszinierende neue Formen erschaffen. Der Conway Explorer kombiniert Dual-, Ambo- und Kis-Operatoren zu überraschenden 3D-Strukturen.</p>
+        </div>
+      </div>
 
-	<p>
-	Technischer Fokus:
-	</p>
+      <div class="card">
+        <a href="projects/modifiers.html">
+          <img src="./assets/images/project-5.png" alt="project-5" />
+        </a>
+        <div class="card-text">
+          <h2>Formvielfalt durch Algorithmen</h2>
+          <p>Durch die Kombination einfacher Transformationen lassen sich aus Grundkörpern komplexe, organische Strukturen erzeugen. Meine Modifikatoren laden zum spielerischen Forschen mit Geometrie ein – ganz ohne manuelles Modellieren.</p>
+        </div>
+      </div>
 
-	<p>
-	Die Bibliothek ist von Grund auf in Java geschrieben und unabhängig von externen Frameworks konzipiert. Sie ermöglicht das Erstellen, Transformieren und Visualisieren von 3D-Meshes auf Basis einfacher geometrischer Prinzipien. Obwohl sie nicht auf Processing angewiesen ist, lässt sich diese Umgebung hervorragend zur Visualisierung nutzen – insbesondere durch deren Unterstützung für JAVA2D und OpenGL.
-	</p>
+      <div class="card">
+        <a href="projects/nbt.html">
+          <img src="./assets/images/project-4.png" alt="project-4" />
+        </a>
+        <div class="card-text">
+          <h2>NBT-Bibliothek</h2>
+          <p>Diese Java-Bibliothek ermöglicht das Lesen, Schreiben und Validieren von NBT- und Schematic-Dateien, wie sie Minecraft intern verwendet. Entstanden aus der Notwendigkeit, große 3D-Modelle automatisiert in Minecraft-Welten zu importieren.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <a href="projects/logo.html">
+          <img src="./assets/images/project-9.png" alt="project-9" />
+        </a>
+        <div class="card-text">
+          <h2>Personalisiertes Logo</h2>
+          <p>Ein individuelles Logo, das mich als Mensch und meinen Weg visuell repräsentiert. Es dient als gestalterisches Symbol für Identität, Entwicklung und Ausdruck der eigenen Persönlichkeit.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <a href="projects/hero.html">
+          <img src="./assets/images/project-1.png" alt="project-1" />
+        </a>
+        <div class="card-text">
+          <h2>Hero Quest Tribute – Handgezeichnete Kartenillustrationen</h2>
+          <p>Inspiriert von den düsteren Fantasy-Illustrationen der HeroQuest-Spielkarten der 90er Jahre, entstand diese Sammlung handgezeichneter Motive.</p>
+        </div>
+      </div>
+    </div>
 
-	<p>
-				<a href="https://github.com/ArtifactForms/MeshLibCore/" target="_blank" class="back-link">
-				  Projekt auf GitHub
-				</a>
-	</p>
-	</section>
-	  -->
-	  
-	  
-	  
-		<h2 id="home">Projekte und Prototypen</h2>
-		<div class="portfolio-grid" id="projects">
+    <section id="about" style="margin-top: 3rem;">
+      <h2>Über mich</h2>
+      <p>Interdisziplinärer Entwickler und Kreativtechniker</p>
+    </section>
 
-		  <div class="card">
-			<a href="projects/conway.html">
-			  <img src="./assets/images/project-6.png" alt="project-6" />
-			</a>
-			<div class="card-text">
-			  <h2>Spielerische Erkundung komplexer Polyeder</h2>
-			  <p>Entdecke, wie einfache geometrische Transformationen faszinierende neue Formen erschaffen. Der Conway Explorer kombiniert Dual-, Ambo- und Kis-Operatoren zu überraschenden 3D-Strukturen.</p>
-			</div>
-		  </div>
+    <section id="contact" style="margin-top: 3rem;">
+      <h2>Kontakt</h2>
+	  <p>
+		Simon Dietz<br />
+		Interdisziplinärer Entwickler und Kreativtechniker<br />
+		Hörleinsdorf 13<br />
+		90599 Dietenhofen<br />
+		Deutschland<br />
+      </p>
+	  <p>
+		E-Mail: h.s.dietz[at]web.de<br />
+		Tel.: [+49] 160 309 49 02
+	  </p>
+    </section>
+  </main>
 
-		  <div class="card">
-			<a href="projects/modifiers.html">
-			  <img src="./assets/images/project-5.png" alt="project-5" />
-			</a>
-			<div class="card-text">
-			  <h2>Formvielfalt durch Algorithmen</h2>
-			  <p>Durch die Kombination einfacher Transformationen lassen sich aus Grundkörpern komplexe, organische Strukturen erzeugen. Meine Modifikatoren laden zum spielerischen Forschen mit Geometrie ein – ganz ohne manuelles Modellieren.</p>
-			</div>
-		  </div>
+  <footer>
+    &copy; 2025 Simon Dietz<br />|
+    <a href="./impressum.html" class="back-link">Impressum</a> |
+    <a href="./datenschutz.html" class="back-link">Datenschutz</a> |
+  </footer>
 
-		  <div class="card">
-			<a href="projects/nbt.html">
-			  <img src="./assets/images/project-4.png" alt="project-4" />
-			</a>
-			<div class="card-text">
-			  <h2>NBT-Bibliothek</h2>
-			  <p>Diese Java-Bibliothek ermöglicht das Lesen, Schreiben und Validieren von NBT- und Schematic-Dateien, wie sie Minecraft intern verwendet. Entstanden aus der Notwendigkeit, große 3D-Modelle automatisiert in Minecraft-Welten zu importieren.</p>
-			</div>
-		  </div>
-		  
-		  <div class="card">
-			<a href="projects/logo.html">
-			  <img src="./assets/images/project-9.png" alt="project-9" />
-			</a>
-			<div class="card-text">
-			  <h2>Personalisiertes Logo</h2>
-			  <p>Ein individuelles Logo, das mich als Mensch und meinen Weg visuell repräsentiert. Es dient als gestalterisches Symbol für Identität, Entwicklung und Ausdruck der eigenen Persönlichkeit.</p>
-			</div>
-		  </div>
-		  
-		  <div class="card">
-			<a href="projects/hero.html">
-			  <img src="./assets/images/project-1.png" alt="project-1" />
-			</a>
-			<div class="card-text">
-			  <h2>Hero Quest Tribute – Handgezeichnete Kartenillustrationen</h2>
-			  <p>Inspiriert von den düsteren Fantasy-Illustrationen der HeroQuest-Spielkarten der 90er Jahre, entstand diese Sammlung handgezeichneter Motive.</p>
-			</div>
-		  </div>
-		  
-		  <!--
+  <script src="./menu.js"></script>
 
-		  <div class="card">
-			<a href="#">
-			  <img src="./assets/images/project-10.png" alt="project-10" />
-			</a>
-			<div class="card-text">
-			  <h2>Pixelart UI</h2>
-			  <p>Vielseitige Java-2D-Pixelart-Library mit integriertem Layout-Management und einer umfangreichen Auswahl an Pixel-Borders.</p>
-			</div>
-		  </div>
-
-		  <div class="card">
-			<a href="#">
-			  <img src="./assets/images/project-8.png" alt="project-8" />
-			</a>
-			<div class="card-text">
-			  <h2>Ehrenamtliches Engagement bei den Style Scouts Nürnberg</h2>
-			  <p>Im Rahmen eines ehrenamtlichen Hospitationsprojekts begleitete ich die Style Scouts Akademie Nürnberg bei der Durchführung kreativer Jugendprojekte im Bereich Style-Writing und Graffiti.</p>
-			</div>
-		  </div>
-
-
-
-		  <div class="card">
-			<a href="#">
-			  <img src="./assets/images/project-2.png" alt="project-2" />
-			</a>
-			<div class="card-text">
-			  <h2>Enter the Gungeon Clone</h2>
-			  <p>Entdecke, wie einfache geometrische Transformationen faszinierende neue Formen erschaffen. Der Conway Explorer kombiniert Dual-, Ambo- und Kis-Operatoren zu überraschenden 3D-Strukturen.</p>
-			</div>
-		  </div>
-
-		  <div class="card">
-			<a href="#">
-			  <img src="./assets/images/project-3.png" alt="project-3" />
-			</a>
-			<div class="card-text">
-			  <h2>Retro Game Jam – Snake im Gameboy-Stil</h2>
-			  <p>Eine minimalistische Neuinterpretation des Klassikers Snake mit authentischer Gameboy-Ästhetik, Sprite-Skalierung per Nearest-Neighbor und ikonischem Fade-Effekt. Entstanden als Hommage an die 8-Bit-Ära meiner Kindheit.</p>
-			</div>
-		  </div>
-
-		  <div class="card">
-			<a href="#">
-			  <img src="./assets/images/project-7.png" alt="project-7" />
-			</a>
-			<div class="card-text">
-			  <h2>Fragmente-2</h2>
-			  <p>Visuelle Studie zu fragiler Geometrie.</p>
-			</div>
-		  </div>
-
-
-
-	-->
-
-		</div>
-
-
-		<section id="about" style="margin-top: 3rem;">
-		  <h2>Über mich</h2>
-		  <p>Interdisziplinärer Entwickler und Kreativtechniker</p>
-		</section>
-
-		<section id="contact" style="margin-top: 3rem;">
-		  <h2>Kontakt</h2>
-		  <p>E-Mail: <a href="mailto:h.s.dietz@web.de" style="color:#1e90ff;">h.s.dietz@web.de</a></p>
-		</section>
-	  </main>
-
-	  <footer>
-		&copy; 2025 Simon Dietz
-	  </footer>
-
-	  <script>
-		// Hamburger Menü Funktionalität
-		const hamburger = document.getElementById('hamburger');
-		const nav = document.getElementById('nav');
-
-		function toggleMenu() {
-		  nav.classList.toggle('open');
-		}
-
-		hamburger.addEventListener('click', toggleMenu);
-		hamburger.addEventListener('keydown', (e) => {
-		  if (e.key === 'Enter' || e.key === ' ') {
-			e.preventDefault();
-			toggleMenu();
-		  }
-		});
-	  </script>
-
-	</body>
-	</html>
+</body>
+</html>

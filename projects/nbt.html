@@ -32,10 +32,10 @@
     </div>
   </header>
 
-    <main>
-      <article class="project-detail">
+  <main>
+    <article class="project-detail">
 
-        <section class="text-section" id="nbt">
+      <section class="text-section" id="nbt">
         <h2>NBT-Bibliothek</h2>
 
         <h3>Hintergrund &amp; Intention</h3>
@@ -54,38 +54,23 @@
           Die Entwicklung dieses Tools führte schließlich zur Entstehung der NBT-Bibliothek.
         </p>
         <p>
-		  <a href="https://github.com/ArtifactForms/nbt" target="_blank" class="back-link" >NBT Projekt auf GitHub</a>
+          <a href="https://github.com/ArtifactForms/nbt" target="_blank" class="back-link">NBT Projekt auf GitHub</a>
         </p>
       </section>
 
-        <p>
-          <a href="../index.html#projects" class="back-link">← Zur Projektübersicht</a>
-        </p>
+      <p>
+        <a href="../index.html#projects" class="back-link">← Zur Projektübersicht</a>
+      </p>
 
-      </article>
-    </main>
+    </article>
+  </main>
 
-    <footer>
-      &copy; 2025 Simon Dietz
-    </footer>
+  <footer>
+    &copy; 2025 Simon Dietz<br />|
+    <a href="../impressum.html" class="back-link">Impressum</a> |
+    <a href="../datenschutz.html" class="back-link">Datenschutz</a> |
+  </footer>
 
-    <script>
-      // Hamburger Menü Funktionalität
-      const hamburger = document.getElementById('hamburger');
-      const nav = document.getElementById('nav');
-
-      function toggleMenu() {
-        nav.classList.toggle('open');
-      }
-
-      hamburger.addEventListener('click', toggleMenu);
-      hamburger.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          toggleMenu();
-        }
-      });
-    </script>
-    
-  </body>
+  <script src="../menu.js"></script>
+</body>
 </html>

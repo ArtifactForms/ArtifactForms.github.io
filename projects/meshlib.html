@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simon Dietz</title>
+  <link href="../styles.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Simon Dietz</div>
+    <nav id="nav">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#projects">Projekte</a>
+      <a href="../index.html#about">Über mich</a>
+      <a href="../index.html#contact">Kontakt</a>
+    </nav>
+    <div class="social-icons">
+      <a href="https://github.com/ArtifactForms/" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/simon-dietz-940821359/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <div
+      class="hamburger"
+      id="hamburger"
+      aria-label="Menü öffnen"
+      role="button"
+      tabindex="0"
+    >
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+  <main>
+    <article class="project-detail">
+
+      <section>
+        <h2>Persönliches 3D-Projekt – Open-Source-Java-Bibliothek zur Erkundung von 3D-Geometrie</h2>
+
+        <p>
+          Dieses Projekt ist aus meiner Faszination für 3D-Programmierung entstanden. Die Java-Bibliothek habe ich ursprünglich 2015/2016 als persönliches Lernprojekt gestartet, mit dem Ziel, ein tieferes Verständnis für den Aufbau und die Verarbeitung von 3D-Geometrie zu entwickeln.
+        </p>
+
+        <p>
+          Der Impuls dazu kam während eines Praktikums im Umfeld von Produktdesign-Studierenden, wo ich erstmals mit der kreativen Programmierumgebung Processing in Kontakt kam. Die visuelle, zugängliche Art von Processing hat mich sofort begeistert – insbesondere die Möglichkeit, Ideen schnell grafisch umzusetzen.
+        </p>
+
+        <p><strong>Technischer Fokus:</strong></p>
+        <p>
+          Der Kern der Bibliothek ist vollständig in reinem Java geschrieben und kann flexibel an verschiedene Rendering-Pipelines angebunden werden. Die grundlegende Datenstruktur für Meshes sowie zahlreiche davon entkoppelte Mesh-Operationen bilden die Basis des Systems. Zentrale Bestandteile der Bibliothek sind sogenannte <strong>MeshModifier</strong> zur Bearbeitung und <strong>MeshCreator</strong> zur Erzeugung von Meshes. Dabei wurde großer Wert auf eine möglichst lose Kopplung der Komponenten gelegt.
+        </p>
+        <p>
+          Zur einfachen Darstellung der Strukturen wurde ein kompakter MeshViewer implementiert, der grundlegende Funktionen zur Visualisierung bietet – ohne den Anspruch, eine vollwertige Modellierungssoftware zu sein. Für die Darstellung kommt die Processing-Umgebung zum Einsatz.
+        </p>
+
+        <p>
+          <a href="https://github.com/ArtifactForms/MeshLibCore/" target="_blank" class="back-link">
+            Projekt auf GitHub
+          </a>
+        </p>
+      </section>
+
+      <p>
+        <a href="../index.html#projects" class="back-link">← Zur Projektübersicht</a>
+      </p>
+
+    </article>
+  </main>
+
+  <footer>
+    &copy; 2025 Simon Dietz<br />
+    |
+    <a href="../impressum.html" class="back-link">Impressum</a> |
+    <a href="../datenschutz.html" class="back-link">Datenschutz</a> |
+  </footer>
+
+  <script src="../menu.js"></script>
+</body>
+</html>

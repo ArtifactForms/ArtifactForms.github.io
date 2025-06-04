@@ -32,80 +32,65 @@
     </div>
   </header>
 
-    <main>
-      <article class="project-detail">
+  <main>
+    <article class="project-detail">
 
-        <section>
-          <h2>Mesh Modifiers</h2>
-          <p>
-            Im Laufe der Jahre habe ich eine Vielzahl an Mesh-Modifikatoren implementiert. Diese ermöglichen es, Grundformen durch gezielte Transformationen zu verändern und zu komplexen, oft unerwarteten Strukturen weiterzuentwickeln.
-          </p>
-          <p>
-            Durch die Kombination verschiedener Modifikatoren entsteht eine nahezu unendliche Vielfalt an Formen. Die spielerische Aneinanderreihung und Variation der einzelnen Operationen erlaubt es, neue Formwelten zu erkunden, ohne dabei händisch modellieren zu müssen. Dieser experimentelle Ansatz macht es möglich, kreative und algorithmisch generierte Geometrien zu erschaffen.
-          </p>
-          <p>
-            <a href="https://github.com/ArtifactForms/MeshLibCore/tree/master/src/main/java/mesh/modifier" target="_blank" class="back-link">
-              Code auf GitHub
-            </a>
-          </p>
-        </section>
-
-        <section>
-          <h2>Modifikator-Sequenz</h2>
-          <p>
-            Das folgende Beispiel zeigt einen möglichen Ablauf der Formgenerierung anhand einer Sequenz von Modifikatoren:
-          </p>
-          <ol>
-            <li>Icosahedron als Ausgangsform</li>
-            <li>Bevel Vertices (Abrunden der Ecken)</li>
-            <li>Tessellierung der Flächen durch Planar Vertex Center</li>
-            <li>Weitere Tessellierung mittels MidEdge Center</li>
-            <li>Spherify zur Annäherung an eine Kugelform</li>
-            <li>Holes Modifier für Durchbrüche in der Geometrie</li>
-            <li>Solidify zur Verdickung der Struktur</li>
-          </ol>
-        </section>
-
-        <section>
-          <div class="image-gallery">
-            <img src="../assets/images/mod-sequence-1.png" alt="Modifikator Beispiel 1" />
-            <img src="../assets/images/mod-sequence-2.png" alt="Modifikator Beispiel 2" />
-            <img src="../assets/images/mod-sequence-3.png" alt="Modifikator Beispiel 3" />
-            <img src="../assets/images/mod-sequence-4.png" alt="Modifikator Beispiel 4" />
-            <img src="../assets/images/mod-sequence-5.png" alt="Modifikator Beispiel 5" />
-            <img src="../assets/images/mod-sequence-6.png" alt="Modifikator Beispiel 6" />
-            <img src="../assets/images/mod-sequence-6.png" alt="Modifikator Beispiel 7" />
-          </div>
-        </section>
-
+      <section>
+        <h2>Mesh Modifiers</h2>
         <p>
-          <a href="../index.html#projects" class="back-link">← Zur Projektübersicht</a>
+          Im Laufe der Jahre habe ich eine Vielzahl an Mesh-Modifikatoren implementiert. Diese ermöglichen es, Grundformen durch gezielte Transformationen zu verändern und zu komplexen, oft unerwarteten Strukturen weiterzuentwickeln.
         </p>
+        <p>
+          Durch die Kombination verschiedener Modifikatoren entsteht eine nahezu unendliche Vielfalt an Formen. Die spielerische Aneinanderreihung und Variation der einzelnen Operationen erlaubt es, neue Formwelten zu erkunden, ohne dabei händisch modellieren zu müssen. Dieser experimentelle Ansatz macht es möglich, kreative und algorithmisch generierte Geometrien zu erschaffen.
+        </p>
+        <p>
+          <a href="https://github.com/ArtifactForms/MeshLibCore/tree/master/src/main/java/mesh/modifier" target="_blank" class="back-link">
+            Code auf GitHub
+          </a>
+        </p>
+      </section>
 
-      </article>
-    </main>
+      <section>
+        <h2>Modifikator-Sequenz</h2>
+        <p>
+          Das folgende Beispiel zeigt einen möglichen Ablauf der Formgenerierung anhand einer Sequenz von Modifikatoren:
+        </p>
+        <ol>
+          <li>Icosahedron als Ausgangsform</li>
+          <li>Bevel Vertices (Abrunden der Ecken)</li>
+          <li>Tessellierung der Flächen durch Planar Vertex Center</li>
+          <li>Weitere Tessellierung mittels MidEdge Center</li>
+          <li>Spherify zur Annäherung an eine Kugelform</li>
+          <li>Holes Modifier für Durchbrüche in der Geometrie</li>
+          <li>Solidify zur Verdickung der Struktur</li>
+        </ol>
+      </section>
 
-    <footer>
-      &copy; 2025 Simon Dietz
-    </footer>
+      <section>
+        <div class="image-gallery">
+          <img src="../assets/images/mod-sequence-1.png" alt="Modifikator Beispiel 1" />
+          <img src="../assets/images/mod-sequence-2.png" alt="Modifikator Beispiel 2" />
+          <img src="../assets/images/mod-sequence-3.png" alt="Modifikator Beispiel 3" />
+          <img src="../assets/images/mod-sequence-4.png" alt="Modifikator Beispiel 4" />
+          <img src="../assets/images/mod-sequence-5.png" alt="Modifikator Beispiel 5" />
+          <img src="../assets/images/mod-sequence-6.png" alt="Modifikator Beispiel 6" />
+          <img src="../assets/images/mod-sequence-6.png" alt="Modifikator Beispiel 7" />
+        </div>
+      </section>
 
-    <script>
-      // Hamburger Menü Funktionalität
-      const hamburger = document.getElementById('hamburger');
-      const nav = document.getElementById('nav');
+      <p>
+        <a href="../index.html#projects" class="back-link">← Zur Projektübersicht</a>
+      </p>
 
-      function toggleMenu() {
-        nav.classList.toggle('open');
-      }
+    </article>
+  </main>
 
-      hamburger.addEventListener('click', toggleMenu);
-      hamburger.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          toggleMenu();
-        }
-      });
-    </script>
-    
-  </body>
+  <footer>
+    &copy; 2025 Simon Dietz<br />|
+    <a href="../impressum.html" class="back-link">Impressum</a> |
+    <a href="../datenschutz.html" class="back-link">Datenschutz</a> |
+  </footer>
+
+  <script src="../menu.js"></script>
+</body>
 </html>

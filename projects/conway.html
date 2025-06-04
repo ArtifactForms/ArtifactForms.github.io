@@ -22,18 +22,10 @@
       </nav>
 
       <div class="social-icons">
-        <a
-          href="https://github.com/ArtifactForms/"
-          target="_blank"
-          aria-label="GitHub"
-        >
+        <a href="https://github.com/ArtifactForms/" target="_blank" aria-label="GitHub">
           <i class="fab fa-github"></i>
         </a>
-        <a
-          href="https://www.linkedin.com/in/simon-dietz-940821359/"
-          target="_blank"
-          aria-label="LinkedIn"
-        >
+        <a href="https://www.linkedin.com/in/simon-dietz-940821359/" target="_blank" aria-label="LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
       </div>
@@ -59,8 +51,8 @@
             Transformationen
           </h2>
         </section>
-		
-		  <section>
+
+        <section>
           <p>
             Der <strong>Conway Explorer</strong> nimmt eine
             zufällige Reihenfolge der Grundoperationen <strong>Dual (D), Amo
@@ -77,7 +69,6 @@
             experimentelles Design und algorithmisch erzeugte Strukturen.
           </p>
         </section>
-		
 
         <section>
           <div class="article-image">
@@ -85,7 +76,7 @@
           </div>
         </section>
 
-		<section>
+        <section>
           <p>
             Durch die Abbildung der prozentualen Anteile von Kis, Ambo und Dual
             – also wie häufig sie in der zufälligen Reihenfolge vorkommen – auf
@@ -93,47 +84,35 @@
             integriert werden. So wird die strukturelle Zusammensetzung einer
             Form nicht nur geometrisch, sondern auch farblich erfahrbar gemacht.
           </p>
-		  </section>
-		
-		 <section>
+        </section>
+
+        <section>
           <div class="image-gallery">
             <img src="../assets/images/conway-1.png" alt="Conway Beispiel 1" />
             <img src="../assets/images/conway-2.png" alt="Conway Beispiel 2" />
-			<img src="../assets/images/conway-3.png" alt="Conway Beispiel 3" />
-			<img src="../assets/images/conway-4.png" alt="Conway Beispiel 4" />
-		    <img src="../assets/images/conway-5.png" alt="Conway Beispiel 5" />
-		    <img src="../assets/images/conway-6.png" alt="Conway Beispiel 6" />
-			<img src="../assets/images/conway-7.png" alt="Conway Beispiel 7" />
-			<img src="../assets/images/conway-8.png" alt="Conway Beispiel 8" />
-			<img src="../assets/images/conway-9.png" alt="Conway Beispiel 9" />
+            <img src="../assets/images/conway-3.png" alt="Conway Beispiel 3" />
+            <img src="../assets/images/conway-4.png" alt="Conway Beispiel 4" />
+            <img src="../assets/images/conway-5.png" alt="Conway Beispiel 5" />
+            <img src="../assets/images/conway-6.png" alt="Conway Beispiel 6" />
+            <img src="../assets/images/conway-7.png" alt="Conway Beispiel 7" />
+            <img src="../assets/images/conway-8.png" alt="Conway Beispiel 8" />
+            <img src="../assets/images/conway-9.png" alt="Conway Beispiel 9" />
           </div>
         </section>
-		
-		        <p>
+
+        <p>
           <a href="../index.html#projects" class="back-link">← Zur Projektübersicht</a>
         </p>
-		
       </article>
     </main>
 
-    <footer>&copy; 2025 Simon Dietz</footer>
+    <footer>
+      &copy; 2025 Simon Dietz<br />
+      |
+      <a href="../impressum.html" class="back-link">Impressum</a> |
+      <a href="../datenschutz.html" class="back-link">Datenschutz</a> |
+    </footer>
 
-    <script>
-      // Hamburger Menü Funktionalität
-      const hamburger = document.getElementById("hamburger");
-      const nav = document.getElementById("nav");
-
-      function toggleMenu() {
-        nav.classList.toggle("open");
-      }
-
-      hamburger.addEventListener("click", toggleMenu);
-      hamburger.addEventListener("keydown", (e) => {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          toggleMenu();
-        }
-      });
-    </script>
+    <script src="../menu.js"></script>
   </body>
 </html>
