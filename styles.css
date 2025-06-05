@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #1e90ff;
+  color: #ffcc00;
 }
 
 .social-icons {
@@ -69,7 +69,7 @@ nav a:hover {
 }
 
 .social-icons a:hover {
-  color: #1e90ff;
+  color: #ffcc00;
 }
 
 .hamburger {
@@ -247,7 +247,7 @@ h3 {
   display: inline-block;
   margin-top: 2rem;
   text-decoration: none;
-  color: #1e90ff;
+  color: #666;
 }
 
 footer {
@@ -260,17 +260,66 @@ footer {
 }
 
 #p5-container {
-  width: 300;
+  width: 300px;
   height: 300px;
   margin-top: 6rem;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   background-color: transparent;
 }
 
-canvas {
+.logo-canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 100vw;
+  min-height: 400px; /* optional, falls du eine Mindesthöhe willst */
+}
+
+/* BLOG */
+
+.blog-entry {
+  margin-bottom: 4rem;
+}
+
+.blog-date {
   display: block;
-  width: 300px !important;
-  height: 300px !important;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+.blog-entry h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.blog-entry p em {
+  display: block;
+  margin-bottom: 1rem;
+  font-style: italic;
+  color: #333;
+}
+
+.blog-entry section {
+  margin-top: 1rem;
+}
+
+.log-separator {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, #222, #999, #222);
+  margin: 3rem 0;
+}
+
+.starfleet-logo {
+  width: 264px;
+  height: 264px;
+  display: block;
+  transition: transform 0.3s ease;
 }

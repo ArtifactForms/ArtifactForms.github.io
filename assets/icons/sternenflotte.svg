@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="64"
+    height="64"
+    viewBox="0 -10 64 74"
+    role="img"
+    aria-label="Sternenflotten-Symbol"
+    overflow="visible"
+>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#666" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#fff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Leuchtender Schatten hinter dem Delta -->
+  <circle cx="32" cy="32" r="20" fill="url(#glow)" />
+
+  <!-- Haupt-Delta -->
+  <path fill="#888" stroke="#000" stroke-width="2"
+        d="M32 4 L18 56 L32 52 L46 56 Z" />
+
+  <!-- Schwarzer Schatten links -->
+  <path fill="#000" opacity="0.2"
+        d="M32 4 L18 56 L32 52 Z" />
+
+  <!-- Stern in der Mitte -->
+  <g transform="translate(32,38) scale(0.7)">
+    <polygon fill="#FFF" stroke="#000" stroke-width="1" points="
+      0,-8 
+      2.5,-2.5 
+      8,0 
+      2.5,2.5 
+      0,8 
+      -2.5,2.5 
+      -8,0 
+      -2.5,-2.5
+    "/>
+  </g>
+
+  <!-- Pulsationsanimation -->
+  <animateTransform attributeName="transform" attributeType="XML" type="scale" begin="0s" dur="2.5s" values="1;1.1;1" repeatCount="indefinite" additive="sum" />
+</svg>
