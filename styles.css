@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffcc00;
+  color: #1e90ff;
 }
 
 .social-icons {
@@ -69,7 +69,7 @@ nav a:hover {
 }
 
 .social-icons a:hover {
-  color: #ffcc00;
+  color: #1e90ff;
 }
 
 .hamburger {
@@ -247,7 +247,7 @@ h3 {
   display: inline-block;
   margin-top: 2rem;
   text-decoration: none;
-  color: #666;
+  color: #1e90ff;
 }
 
 footer {
@@ -260,23 +260,29 @@ footer {
 }
 
 #p5-container {
-  width: 300px;
+  width: 300;
   height: 300px;
   margin-top: 6rem;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: transparent;
 }
 
-.logo-canvas {
+#p5-container-2 {
+  width: 300;
+  height: 300px;
+  margin-top: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem auto;
-  width: 100%;
-  max-width: 100vw;
-  min-height: 400px; /* optional, falls du eine Mindesthöhe willst */
+  background-color: transparent;
+}
+
+#p5-container-2 canvas {
+  display: block;
+  width: 300px !important;
+  height: 300px !important;
 }
 
 /* BLOG */

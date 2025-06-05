@@ -7,12 +7,12 @@ let boxSize = 200;
 let animate = false;
 
 function setup() {
-  const container = document.getElementById("p5-container");
+  const container = document.getElementById("p5-container-2");
   const w = 400;
   const h = 400;
 
   canvas = createCanvas(w, h, WEBGL, { antialias: true });
-  canvas.parent("p5-container");
+  canvas.parent("p5-container-2");
 
   background(255);
 }
