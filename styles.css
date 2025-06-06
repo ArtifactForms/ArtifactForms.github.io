@@ -24,7 +24,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   z-index: 10;
   color: #ffffff;
 }
@@ -73,7 +73,7 @@ nav a:hover {
 }
 
 .hamburger {
-  display: none; 
+  display: none;
   flex-direction: column;
   justify-content: space-around;
   width: 25px;
@@ -91,6 +91,7 @@ nav a:hover {
   transition: background 0.3s;
 }
 
+/* MOBILE NAVIGATION */
 @media (max-width: 768px) {
   header {
     padding: 1rem;
@@ -125,7 +126,7 @@ nav a:hover {
     margin-top: 0.5rem;
     padding-left: 0;
     gap: 0.75rem;
-    margin-left: 0; 
+    margin-left: 0;
   }
 
   .social-icons a {
@@ -133,6 +134,7 @@ nav a:hover {
   }
 }
 
+/* MAIN CONTENT - Abstand wegen fixed Header */
 main {
   padding: 80px 2rem 2rem;
   max-width: 1000px;
@@ -141,6 +143,7 @@ main {
   z-index: 5;
 }
 
+/* HEADINGS */
 h1 {
   text-align: left;
   margin-bottom: 2rem;
@@ -160,12 +163,14 @@ h3 {
   margin-top: 3rem;
 }
 
+/* PORTFOLIO GRID */
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
 
+/* CARD STYLE */
 .card {
   font-family: Arial, sans-serif;
   background: rgba(255, 255, 255, 0.05);
@@ -206,19 +211,22 @@ h3 {
   color: #333333;
 }
 
+/* PROJECT DETAIL */
 .project-detail {
   max-width: 800px;
   margin: 2rem auto;
   padding: 1rem;
 }
 
+/* ARTICLE IMAGE */
 .article-image img {
   display: block;
   margin: 1rem auto;
-  max-width: 100%;    
+  max-width: 100%;
   height: auto;
 }
 
+/* IMAGE GALLERY */
 .image-gallery {
   display: grid;
   gap: 1rem;
@@ -243,6 +251,7 @@ h3 {
   }
 }
 
+/* BACK LINK */
 .back-link {
   display: inline-block;
   margin-top: 2rem;
@@ -250,6 +259,7 @@ h3 {
   color: #1e90ff;
 }
 
+/* FOOTER */
 footer {
   text-align: center;
   padding: 1rem 2rem;
@@ -259,34 +269,57 @@ footer {
   margin-top: 3rem;
 }
 
-#p5-container {
-  width: 300;
-  height: 300px;
-  margin-top: 6rem;
+/* P5 CONTAINER STYLES */
+#p5-container,
+#p5-container-2,
+#p5-container-zerfall {
+  margin: 6rem auto 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: transparent;
+  width: fit-content;
+}
+
+#p5-container {
+  width: 300px;
+  height: 300px;
 }
 
 #p5-container-2 {
-  width: 300;
+  width: 300px;
   height: 300px;
-  margin-top: 6rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
 }
 
-#p5-container-2 canvas {
+#p5-container-zerfall {
+  margin-top: 0;
+  width: 800px;
+  height: 800px;
+}
+
+#p5-container canvas,
+#p5-container-2 canvas,
+#p5-container-zerfall canvas {
   display: block;
-  width: 300px !important;
-  height: 300px !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 800px;
+  max-height: 800px;
+}
+
+@media (max-width: 768px) {
+  #p5-container-zerfall {
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  #p5-container-zerfall canvas {
+    width: 300px !important;
+    height: 300px !important;
+  }
 }
 
 /* BLOG */
-
 .blog-entry {
   margin-bottom: 4rem;
 }
