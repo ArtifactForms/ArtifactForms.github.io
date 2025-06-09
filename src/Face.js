@@ -15,10 +15,10 @@ export class Face {
   }
 
   getNormal() {
-    return this.normal;
+    return this.#normal;
   }
 
   setNormal(normal) {
-    this.normal = normal;
+    this.#normal = normal;
   }
 }
