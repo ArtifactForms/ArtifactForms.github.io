@@ -1,4 +1,7 @@
 export class Face {
+
+  #normal;
+
   constructor(...indices) {
     this.indices = indices;
   }
@@ -9,5 +12,13 @@ export class Face {
 
   getIndexAt(i) {
     return this.indices[i];
+  }
+
+  getNormal() {
+    return this.normal;
+  }
+
+  setNormal(normal) {
+    this.normal = normal;
   }
 }

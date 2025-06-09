@@ -80,4 +80,10 @@ export class Mesh {
       this.faces.splice(idx, 1);
     }
   }
+
+  updateFaceNormals() {
+    for (let face of this.faces) {
+      face.setNormal(this.calculateFaceNormal(face));
+    }
+  }
 }

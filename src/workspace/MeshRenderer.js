@@ -27,6 +27,11 @@ export class MeshRenderer {
                     beginShape();
             }
 
+            const n = face.getNormal();
+            if (n != null) {
+                normal(n.x, n.y, n.z);
+            }
+
             for (let i = 0; i < face.indices.length; i++) {
                 const v = mesh.vertices[face.indices[i]];
                 vertex(v.x, v.y, v.z);

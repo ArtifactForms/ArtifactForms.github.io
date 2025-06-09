@@ -18,12 +18,14 @@ window.createMesh = function () {
   mesh = creator.create();
 
   mesh = new TriakisTetrahedronCreator().create();
+  mesh.updateFaceNormals();
 };
 
 window.draw = function () {
+  lights();
   workspace.draw();
   stroke(0);
-  fill(128);
+  fill(255);
   workspace.drawMesh(mesh);
 };
 
