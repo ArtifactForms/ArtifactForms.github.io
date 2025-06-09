@@ -93,31 +93,3 @@ export class Workspace {
         }
     }
 }
-
-class MeshRenderer {
-    constructor() {}
-    
-    drawMesh(mesh) {
-        push();
-        for (let face of mesh.faces) {
-            switch (face.indices.length) {
-                case 3:
-                    beginShape(TRIANGLES);
-                    break;
-                case 4:
-                    beginShape(QUADS);
-                    break;
-                default:
-                    beginShape();
-            }
-
-            for (let i = 0; i < face.indices.length; i++) {
-                const v = mesh.vertices[face.indices[i]];
-                vertex(v.x, v.y, v.z);
-            }
-
-            endShape(CLOSE);
-        }
-        pop();
-    }
-}
