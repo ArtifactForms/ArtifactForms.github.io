@@ -1,4 +1,4 @@
-import { PlaneCreator } from './PlaneCreator.js';
+import { PlaneCreator } from './creator/PlaneCreator.js';
 import { PlanarVertexCenterModifier } from './PlanarVertexCenterModifier.js';
 
 let divisions;
