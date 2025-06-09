@@ -19,6 +19,7 @@ window.createMesh = function () {
 
 window.draw = function () {
   workspace.draw();
+  stroke(0);
   fill(128);
   workspace.drawMesh(mesh);
 };
