@@ -1,5 +1,6 @@
 import { Axis } from './Axis.js';
 import { Grid } from './Grid.js';
+import { MeshRenderer } from './MeshRenderer.js';
 
 export class Workspace {
     constructor() {
@@ -7,7 +8,6 @@ export class Workspace {
         this.rotationY = -Math.PI * 0.25;
         this.backgroundColor = 60;
         this.scaleFactor = 100;
-        this.smoothFactor = 8;
         this.faceNormalsVisible = false;
         this.wireframe = false;
         this.grid = new Grid();
@@ -16,7 +16,6 @@ export class Workspace {
     }
 
     draw() {
-        smooth(this.smoothFactor);
         background(this.backgroundColor);
         this.transform();
         this.grid.draw();
