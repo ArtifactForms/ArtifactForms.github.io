@@ -1,4 +1,5 @@
 import { CubeCreator } from '../../creator/CubeCreator.js';
+import { TriakisTetrahedronCreator } from '../../creator/TriakisTetrahedronCreator.js'
 import { Workspace } from '../../workspace/Workspace.js';
 
 let canvas;
@@ -15,6 +16,8 @@ window.setup = function () {
 window.createMesh = function () {
   const creator = new CubeCreator();
   mesh = creator.create();
+
+  mesh = new TriakisTetrahedronCreator().create();
 };
 
 window.draw = function () {
