@@ -23,7 +23,7 @@ export class Axis {
      * @type {number[]}
      * @private
      */
-    #zOffsets = [-0.0001, 0.0001];
+    #zOffsets = [-0.001, 0.001];
 
     /**
      * Draws the visible axes.
