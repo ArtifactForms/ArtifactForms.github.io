@@ -1,5 +1,5 @@
-import { PlaneCreator } from './creator/PlaneCreator.js';
-import { PlanarVertexCenterModifier } from './modifier/PlanarVertexCenterModifier.js';
+import { PlaneCreator } from '../creator/PlaneCreator.js';
+import { PlanarVertexCenterModifier } from '../modifier/PlanarVertexCenterModifier.js';
 
 let divisions;
 let canvas;
