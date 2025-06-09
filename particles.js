@@ -42,7 +42,7 @@ function generateTextPoints() {
 
 function draw() {
   clear();
-  background(40);
+  background(60);
   for (let p of particles) {
     p.behaviors();
     p.update();

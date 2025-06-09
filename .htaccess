@@ -1,3 +1,15 @@
+# Force HTTPS
 RewriteEngine On
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Disable caching for specific file types during development
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js|html|png|jpe?g|svg)$">
+    FileETag None
+    Header unset ETag
+    Header set Cache-Control "no-cache, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "Mon, 1 Jan 1990 00:00:00 GMT"
+  </FilesMatch>
+</IfModule>

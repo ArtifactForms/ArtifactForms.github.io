@@ -1,6 +1,7 @@
 import { PlaneCreator } from './PlaneCreator.js';
 import { PlanarVertexCenterModifier } from './PlanarVertexCenterModifier.js';
 
+let divisions;
 let canvas;
 let mesh;
 let decayFaces = [];
@@ -50,7 +51,8 @@ function createMesh() {
     const creator = new PlaneCreator();
     mesh = creator.create();
 
-    let subdivisions = floor(random(2, 4));
+    let subdivisions = floor(random(2, 6));
+	divisions = subdivisions;
     for (let i = 0; i < subdivisions; i++) {
         new PlanarVertexCenterModifier().modify(mesh);
     }
@@ -83,7 +85,7 @@ function updateDecay() {
     }
 
     let currentFace = decayFaces[decayIndex];
-    currentFace.alpha -= 20;
+    currentFace.alpha -= (20 * divisions);
 
     if (currentFace.alpha <= 0) {
         currentFace.alpha = 0;

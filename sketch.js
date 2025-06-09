@@ -14,7 +14,7 @@ function setup() {
   canvas = createCanvas(w, h, WEBGL, { antialias: true });
   canvas.parent("p5-container-2");
 
-  background(255);
+  background(250);
 }
 
 function mouseClicked() {
@@ -59,7 +59,7 @@ function draw() {
     }
   }
 
-  background(255);
+  background(250);
   noFill();
   stroke(0);
   strokeWeight(2);

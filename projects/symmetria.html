@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simon Dietz</title>
+	<link href="../styles.css?v=2" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">Simon Dietz</div>
+
+      <nav id="nav">
+        <a href="../index.html#home">Home</a>
+        <a href="../index.html#projects">Projekte</a>
+        <a href="../index.html#about">Über mich</a>
+        <a href="../index.html#contact">Kontakt</a>
+        <a href="../blog.html">Blog</a>
+      </nav>
+
+      <div class="social-icons">
+        <a href="https://github.com/ArtifactForms/" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/simon-dietz-940821359/" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+
+      <div
+        class="hamburger"
+        id="hamburger"
+        aria-label="Menü öffnen"
+        role="button"
+        tabindex="0"
+      >
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </header>
+
+    <main>
+      <article class="project-detail">
+        <section>
+          <h2>Symmetria</h2>
+        </section>
+
+        <section>
+          <p>
+            „Symmetria“ ist eine visuelle Studie zur flüchtigen Ästhetik symmetrischer Strukturen, inspiriert von kalligrafischen Bewegungen.
+            Eine geometrische Grundform entfaltet sich dynamisch in nahezu perfekter Symmetrie, doch die scheinbare Ordnung wird durch die lebendige, leicht ungenaue Strichführung gebrochen.
+            Das Werk fängt den Moment eines schnellen, impulsiven Striches ein – analog zu den Bewegungen eines Writers beim Taggen oder dem spontanen Setzen einer Signatur.
+          </p>
+          <p>
+            Dieses Projekt reflektiert über die Balance zwischen digitaler Präzision und organischer Imperfektion sowie über die flüchtige Schönheit von Bewegungen und Momentaufnahmen.
+          </p>
+          <p>
+            <strong>media:</strong> p5js<br />
+            <strong>year:</strong> 2025
+          </p>
+        </section>
+		
+		<section id="image-gallery"></section>
+		<script>
+		  const container = document.getElementById('image-gallery');
+
+		  for (let i = 0; i <= 21; i++) {
+			const div = document.createElement('div');
+			div.className = 'art-image';
+
+			const img = document.createElement('img');
+			img.src = `../assets/images/future-tag-x0-${i}.png`;
+			img.alt = `Symmetria-${i}`;
+
+			div.appendChild(img);
+			container.appendChild(div);
+		  }
+		</script>
+
+  
+
+        <p>
+          <a href="../index.html#projects" class="back-link">← Zur Projektübersicht</a>
+        </p>
+      </article>
+    </main>
+
+    <footer>
+      &copy; 2025 Simon Dietz<br />
+      |
+      <a href="../impressum.html" class="back-link">Impressum</a> |
+      <a href="../datenschutz.html" class="back-link">Datenschutz</a> |
+    </footer>
+
+    <script src="../menu.js"></script>
+  </body>
+</html>
