@@ -1,7 +1,8 @@
-import { Face } from './Face.js';
-import { Vector3 } from './Vector3.js';
+import { Face } from '../Face.js';
+import { Vector3 } from '../Vector3.js';
 
 export class PlanarVertexCenterModifier {
+    
     modify(mesh) {
         return this.modifyFaces(mesh, mesh.faces);
     }
@@ -17,8 +18,8 @@ export class PlanarVertexCenterModifier {
 
         for (const face of facesCopy) {
             const indices = face.indices;
-            const center = this.calculateFaceCenter(mesh, face);
-            const centerIndex = this.addVertex(mesh, center);
+            const center = this.#calculateFaceCenter(mesh, face);
+            const centerIndex = this.#addVertex(mesh, center);
 
             const vertexCount = indices.length;
             for (let i = 0; i < vertexCount; i++) {
@@ -30,18 +31,18 @@ export class PlanarVertexCenterModifier {
             facesToRemove.push(face);
         }
 
-        this.removeFaces(mesh, facesToRemove);
-        this.addFaces(mesh, newFaces);
+        this.#removeFaces(mesh, facesToRemove);
+        this.#addFaces(mesh, newFaces);
 
         return mesh;
     }
 
-    addVertex(mesh, vertex) {
+    #addVertex(mesh, vertex) {
         mesh.vertices.push(new Vector3(vertex.x, vertex.y, vertex.z)); // defencive copy
         return mesh.vertices.length - 1;
     }
 
-    removeFaces(mesh, faces) {
+    #removeFaces(mesh, faces) {
         for (const face of faces) {
             const index = mesh.faces.indexOf(face);
             if (index !== -1) {
@@ -50,11 +51,11 @@ export class PlanarVertexCenterModifier {
         }
     }
 
-    addFaces(mesh, faces) {
+    #addFaces(mesh, faces) {
         mesh.faces.push(...faces);
     }
 
-    calculateFaceCenter(mesh, face) {
+    #calculateFaceCenter(mesh, face) {
         const indices = face.indices;
         let center = new Vector3(0, 0, 0);
 
