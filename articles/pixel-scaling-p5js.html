@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simon Dietz</title>
+    <link href="../styles.css?v=2" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Simon Dietz</div>
+
+      <nav id="nav">
+        <a href="../index.html#home">Home</a>
+        <a href="../index.html#projects">Projekte</a>
+        <a href="../index.html#about">Über mich</a>
+        <a href="../index.html#contact">Kontakt</a>
+        <a href="../blog.html">Blog</a>
+      </nav>
+
+      <div class="social-icons">
+        <a
+          href="https://github.com/ArtifactForms/"
+          target="_blank"
+          aria-label="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/simon-dietz-940821359/"
+          target="_blank"
+          aria-label="LinkedIn"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+
+      <div
+        class="hamburger"
+        id="hamburger"
+        aria-label="Menü öffnen"
+        role="button"
+        tabindex="0"
+      >
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </header>
+
+    <main>
+      <article class="project-detail">
+       <section>
+  <h2>Pixel Scaling in p5.js – Retro Look with Sharp Edges</h2>
+  
+  <p>
+    When drawing pixel art or retro-style graphics in <strong>p5.js</strong>, images often appear blurry when scaled up. This is caused by <em>default image interpolation</em> applied by browsers. To preserve crisp, pixel-perfect edges, this behavior must be overridden explicitly.
+  </p>
+</section>
+
+<section>
+  <h3>Objective</h3>
+  <p>
+    - Draw a small image (e.g., 64×64 pixels).<br>
+    - Display it scaled up on the main canvas.<br>
+    - Ensure sharp, non-blurry edges — no smoothing.
+  </p>
+</section>
+
+<section>
+  <h3>Solution Overview</h3>
+  <p>
+    The method involves:
+  </p>
+  <ul>
+    <li>Using the <code>WEBGL</code> renderer for full texture control,</li>
+    <li>Creating an off-screen <code>createGraphics()</code> buffer,</li>
+    <li>Disabling interpolation with <code>setInterpolation(NEAREST, NEAREST)</code>,</li>
+    <li>Manually flipping and translating coordinates to simulate 2D behavior in WEBGL.</li>
+  </ul>
+</section>
+
+<section>
+  <h3>Example Code</h3>
+  <pre><code>let pg;
+let pixelSize = 10;
+
+function setup() {
+  createCanvas(800, 800, WEBGL);
+  noSmooth();
+  canvas.imageSmoothingEnabled = false;
+
+  pg = createGraphics(64, 64, WEBGL);
+  pg.noSmooth();
+  pg.imageMode(CORNER);
+  pg.pixelDensity(1);
+  pg.ortho();
+
+  pg.push();
+  pg.scale(1, -1);
+  pg.translate(-32, -32);
+
+  pg.background(192);
+  pg.noFill();
+  pg.stroke(0);
+  pg.rect(0, 0, 64, 64); 
+  pg.rect(2, 2, 60, 60); 
+  pg.rect(4, 4, 56, 56);
+  pg.ellipseMode(CENTER);
+  pg.fill(90);
+  pg.ellipse(32, 32, 54, 54);
+  pg.pop();
+
+  imageMode(CENTER);
+  this._renderer.getTexture(pg).setInterpolation(NEAREST, NEAREST);
+}
+
+function draw() {
+  background(90);
+  scale(1, -1);
+  scale(pixelSize);
+  image(pg, 0, 0);
+}
+</code></pre>
+</section>
+
+<section>
+  <h3>Key Points</h3>
+  <ul>
+    <li><strong>Why WEBGL?</strong> — Only in <code>WEBGL</code> mode can texture interpolation be changed to <code>NEAREST</code>.</li>
+    <li><strong>Why <code>ortho()</code> and <code>scale(1, -1)</code>?</strong> — The WEBGL coordinate system flips the Y axis. These adjustments simulate typical 2D top-left-based layouts.</li>
+    <li><strong><code>imageMode(CORNER)</code> and <code>CENTER</code></strong> — Proper positioning depends on matching mode with transform logic.</li>
+  </ul>
+</section>
+
+<section>
+  <h3>Result</h3>
+  <p>
+    The output appears crisp and blocky as expected from pixel art, even when upscaled 10× or more. No anti-aliasing or smoothing occurs. This replicates the visual style of old video game systems or emulators.
+  </p>
+</section>
+
+<section>
+  <h3>Conclusion</h3>
+  <p>
+    With careful setup, <strong>p5.js</strong> supports clean, pixel-perfect rendering without the need for external tools or shaders. <code>createGraphics()</code>, <code>WEBGL</code>, and <code>setInterpolation()</code> together offer full control for retro-style rendering and grid-based visuals.
+  </p>
+</section>
+
+      </article>
+    </main>
+
+    <footer>
+      &copy; 2025 Simon Dietz<br />
+      |
+      <a href="../impressum.html" class="back-link">Impressum</a> |
+      <a href="../datenschutz.html" class="back-link">Datenschutz</a> |
+    </footer>
+
+    <script src="../menu.js"></script>
+  </body>
+</html>
