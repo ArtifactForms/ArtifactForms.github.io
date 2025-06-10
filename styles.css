@@ -8,10 +8,43 @@ body {
   padding: 0;
   height: 100%;
   font-family: Lucida Console, Lucida Sans Typewriter, Monaco, "Bitstream Vera Sans Mono", monospace;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   color: #000000;
   overflow-x: hidden;
   line-height: 1.6;
+  font-size: 1rem; /* 16px on desktop */
+}
+
+h1 {
+  font-size: 2rem;     /* 32px */
+}
+h2 {
+  font-size: 1.5rem;   /* 24px */
+}
+h3 {
+  font-size: 1.25rem;  /* 20px */
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.3rem; }
+  h3 { font-size: 1.1rem; }
+}
+
+code, pre {
+  font-size: 0.95rem; /* ~15px */
+  font-family: inherit; /* already monospace by default */
+  white-space: pre-wrap;
+  word-break: break-word;
+
+}
+
+section pre {
+  font-size: 0.95rem;
+  overflow-x: auto;
+  border-radius: 4px;
+  padding: 2rem;
+  background: rgb(200, 200, 200);
 }
 
 header {
@@ -19,7 +52,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background: #fff;
+  background: white;
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
@@ -286,6 +319,7 @@ footer {
 }
 
 /* P5 CONTAINER STYLES */
+.sketch-container,
 #p5-container,
 #p5-container-2,
 #p5-container-zerfall {
@@ -297,6 +331,7 @@ footer {
   width: fit-content;
 }
 
+.sketch-container,
 #p5-container {
   width: 300px;
   height: 300px;
@@ -313,6 +348,7 @@ footer {
   height: 800px;
 }
 
+.sketch-container,
 #p5-container canvas,
 #p5-container-2 canvas,
 #p5-container-zerfall canvas {
@@ -324,11 +360,12 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .sketch-container,
   #p5-container-zerfall {
     width: 300px !important;
     height: 300px !important;
   }
-
+  .sketch-container canvas,
   #p5-container-zerfall canvas {
     width: 300px !important;
     height: 300px !important;
