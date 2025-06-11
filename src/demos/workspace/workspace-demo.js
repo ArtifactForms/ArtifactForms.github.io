@@ -24,9 +24,14 @@ window.createMesh = function () {
 window.draw = function () {
   lights();
   workspace.draw();
+
   stroke(0);
   fill(255);
   workspace.drawMesh(mesh);
+};
+
+window.windowResized = function () {
+  resizeCanvas(windowWidth, windowHeight);
 };
 
 window.mouseDragged = function () {
@@ -41,4 +46,3 @@ window.mouseWheel = function (event) {
 window.keyTyped =  function () {
   workspace.onKeyTyped(key);
 };
-
